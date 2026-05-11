@@ -1,0 +1,20 @@
+{
+  "roc_auc": 0.9999999999999999,
+  "positive_churn_rate": 0.5640203449800973,
+  "features": [
+    "recency_days",
+    "frequency",
+    "monetary",
+    "returns",
+    "age",
+    "loyalty_tier_Gold",
+    "loyalty_tier_Platinum",
+    "loyalty_tier_Silver",
+    "acquisition_channel_Direct",
+    "acquisition_channel_Email",
+    "acquisition_channel_Influencer",
+    "acquisition_channel_Organic Search",
+    "acquisition_channel_Paid Search",
+    "acquisition_channel_Social"
+  ]
+}
