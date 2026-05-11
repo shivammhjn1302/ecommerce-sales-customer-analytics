@@ -1,0 +1,651 @@
+product_id,product_name,category,subcategory,list_price,standard_margin_pct,status
+P200000,Dress Pro 000,Fashion,Dress,3836.02,0.415,Discontinued
+P200001,Tablet Max 001,Electronics,Tablet,13762.29,0.153,Discontinued
+P200002,Headphones Pro 002,Electronics,Headphones,59178.54,0.201,Active
+P200003,T-Shirt Plus 003,Fashion,T-Shirt,4067.65,0.395,Active
+P200004,Tablet Max 004,Electronics,Tablet,66159.33,0.183,Discontinued
+P200005,Chair Plus 005,Home & Kitchen,Chair,17039.33,0.302,Active
+P200006,Yoga Mat Max 006,Sports,Yoga Mat,12463.58,0.427,Discontinued
+P200007,Laptop Lite 007,Electronics,Laptop,83005.95,0.14,Active
+P200008,Dumbbells Max 008,Sports,Dumbbells,3748.3,0.286,Discontinued
+P200009,Smartphone Plus 009,Electronics,Smartphone,36203.57,0.216,Discontinued
+P200010,Doll Eco 010,Toys,Doll,5324.29,0.194,Active
+P200011,Jeans Elite 011,Fashion,Jeans,1194.69,0.469,Active
+P200012,Backpack Pro 012,Sports,Backpack,9310.44,0.379,Active
+P200013,Cookware Plus 013,Home & Kitchen,Cookware,5153.2,0.206,Discontinued
+P200014,Perfume Eco 014,Beauty,Perfume,1713.68,0.49,Active
+P200015,Perfume Max 015,Beauty,Perfume,1194.8,0.375,Active
+P200016,Remote Car Elite 016,Toys,Remote Car,2018.22,0.2,Active
+P200017,Skincare Eco 017,Beauty,Skincare,2988.22,0.329,Active
+P200018,Fiction Max 018,Books,Fiction,1563.08,0.124,Active
+P200019,Self Help Max 019,Books,Self Help,1957.11,0.13,Discontinued
+P200020,Children Eco 020,Books,Children,1256.24,0.279,Discontinued
+P200021,Handbag Max 021,Fashion,Handbag,5662.15,0.286,Discontinued
+P200022,Storage Lite 022,Home & Kitchen,Storage,8194.58,0.346,Discontinued
+P200023,Jeans Lite 023,Fashion,Jeans,3902.77,0.33,Active
+P200024,Smartwatch Elite 024,Electronics,Smartwatch,37515.98,0.156,Active
+P200025,Handbag Eco 025,Fashion,Handbag,6564.38,0.503,Active
+P200026,Smartwatch Lite 026,Electronics,Smartwatch,9625.54,0.145,Discontinued
+P200027,Camera Pro 027,Electronics,Camera,9019.4,0.086,Active
+P200028,Storage Eco 028,Home & Kitchen,Storage,7840.1,0.377,Discontinued
+P200029,Jeans Pro 029,Fashion,Jeans,6747.51,0.292,Discontinued
+P200030,Sunscreen Eco 030,Beauty,Sunscreen,2199.26,0.387,Active
+P200031,Cycle Accessories Max 031,Sports,Cycle Accessories,746.06,0.391,Active
+P200032,Tablet Max 032,Electronics,Tablet,15617.79,0.206,Active
+P200033,Dress Lite 033,Fashion,Dress,2685.22,0.329,Discontinued
+P200034,Hair Dryer Plus 034,Beauty,Hair Dryer,4491.44,0.422,Active
+P200035,Laptop Eco 035,Electronics,Laptop,48796.6,0.082,Active
+P200036,Smartwatch Eco 036,Electronics,Smartwatch,82138.97,0.132,Discontinued
+P200037,Beverages Max 037,Grocery,Beverages,1227.44,0.121,Active
+P200038,Dumbbells Lite 038,Sports,Dumbbells,5976.1,0.264,Active
+P200039,Smartphone Pro 039,Electronics,Smartphone,30050.07,0.191,Active
+P200040,Children Plus 040,Books,Children,326.04,0.267,Discontinued
+P200041,Smartphone Max 041,Electronics,Smartphone,69383.55,0.108,Discontinued
+P200042,Mixer Eco 042,Home & Kitchen,Mixer,1661.01,0.224,Discontinued
+P200043,Lamp Lite 043,Home & Kitchen,Lamp,16208.19,0.363,Active
+P200044,Smartwatch Lite 044,Electronics,Smartwatch,59284.33,0.198,Active
+P200045,Bedsheet Elite 045,Home & Kitchen,Bedsheet,12344.13,0.255,Active
+P200046,Smartwatch Elite 046,Electronics,Smartwatch,6458.27,0.181,Discontinued
+P200047,Bedsheet Plus 047,Home & Kitchen,Bedsheet,15043.49,0.391,Active
+P200048,Storage Max 048,Home & Kitchen,Storage,16986.62,0.366,Discontinued
+P200049,Jacket Lite 049,Fashion,Jacket,3688.18,0.439,Active
+P200050,Makeup Kit Elite 050,Beauty,Makeup Kit,1860.64,0.343,Active
+P200051,Cycle Accessories Plus 051,Sports,Cycle Accessories,11940.95,0.373,Active
+P200052,Yoga Mat Pro 052,Sports,Yoga Mat,11242.45,0.359,Discontinued
+P200053,Cookware Lite 053,Home & Kitchen,Cookware,4030.08,0.361,Active
+P200054,Bedsheet Max 054,Home & Kitchen,Bedsheet,3163.1,0.376,Active
+P200055,Jacket Pro 055,Fashion,Jacket,2902.78,0.544,Active
+P200056,Hair Dryer Max 056,Beauty,Hair Dryer,953.09,0.352,Discontinued
+P200057,Tablet Max 057,Electronics,Tablet,7259.69,0.175,Discontinued
+P200058,Smartwatch Max 058,Electronics,Smartwatch,58876.05,0.191,Discontinued
+P200059,T-Shirt Lite 059,Fashion,T-Shirt,2565.2,0.485,Active
+P200060,Tablet Plus 060,Electronics,Tablet,7883.3,0.2,Active
+P200061,Hair Dryer Eco 061,Beauty,Hair Dryer,2934.71,0.395,Active
+P200062,Fiction Plus 062,Books,Fiction,769.83,0.178,Active
+P200063,Headphones Eco 063,Electronics,Headphones,44265.89,0.132,Active
+P200064,Shoes Pro 064,Sports,Shoes,1760.29,0.221,Discontinued
+P200065,Board Game Pro 065,Toys,Board Game,303.53,0.333,Active
+P200066,Cookware Eco 066,Home & Kitchen,Cookware,15652.36,0.255,Active
+P200067,Organic Staples Plus 067,Grocery,Organic Staples,1384.12,0.101,Active
+P200068,Smartwatch Elite 068,Electronics,Smartwatch,38065.96,0.189,Active
+P200069,Bedsheet Max 069,Home & Kitchen,Bedsheet,6194.35,0.323,Active
+P200070,Laptop Pro 070,Electronics,Laptop,55454.92,0.205,Discontinued
+P200071,Mixer Max 071,Home & Kitchen,Mixer,15970.03,0.239,Active
+P200072,Dress Max 072,Fashion,Dress,6852.28,0.534,Active
+P200073,Self Help Lite 073,Books,Self Help,929.75,0.218,Discontinued
+P200074,Skincare Elite 074,Beauty,Skincare,625.31,0.522,Active
+P200075,Skincare Plus 075,Beauty,Skincare,4415.13,0.352,Active
+P200076,T-Shirt Pro 076,Fashion,T-Shirt,1039.79,0.399,Discontinued
+P200077,Smartphone Eco 077,Electronics,Smartphone,84117.01,0.146,Discontinued
+P200078,Smartwatch Eco 078,Electronics,Smartwatch,3343.36,0.117,Discontinued
+P200079,Smartphone Plus 079,Electronics,Smartphone,6514.09,0.201,Active
+P200080,Headphones Eco 080,Electronics,Headphones,66915.27,0.125,Discontinued
+P200081,Snacks Lite 081,Grocery,Snacks,1683.32,0.083,Active
+P200082,Laptop Elite 082,Electronics,Laptop,71813.1,0.144,Active
+P200083,Tablet Pro 083,Electronics,Tablet,8930.01,0.142,Active
+P200084,Breakfast Lite 084,Grocery,Breakfast,1802.48,0.092,Active
+P200085,Tablet Max 085,Electronics,Tablet,11243.38,0.117,Active
+P200086,Snacks Max 086,Grocery,Snacks,2415.72,0.065,Active
+P200087,Snacks Eco 087,Grocery,Snacks,1711.66,0.069,Active
+P200088,Organic Staples Eco 088,Grocery,Organic Staples,2145.95,0.109,Active
+P200089,Coffee Lite 089,Grocery,Coffee,1940.98,0.093,Discontinued
+P200090,Puzzle Elite 090,Toys,Puzzle,3678.35,0.236,Discontinued
+P200091,Beverages Elite 091,Grocery,Beverages,1833.98,0.121,Active
+P200092,Smartwatch Pro 092,Electronics,Smartwatch,59558.11,0.187,Discontinued
+P200093,Tablet Eco 093,Electronics,Tablet,31165.49,0.146,Active
+P200094,Chair Max 094,Home & Kitchen,Chair,6438.18,0.211,Active
+P200095,Smartwatch Plus 095,Electronics,Smartwatch,34700.98,0.155,Active
+P200096,Dumbbells Plus 096,Sports,Dumbbells,5115.18,0.306,Discontinued
+P200097,Children Max 097,Books,Children,1806.72,0.234,Active
+P200098,Headphones Max 098,Electronics,Headphones,48808.95,0.192,Discontinued
+P200099,Camera Eco 099,Electronics,Camera,4961.96,0.094,Active
+P200100,Organic Staples Pro 100,Grocery,Organic Staples,540.25,0.107,Active
+P200101,Sneakers Max 101,Fashion,Sneakers,1613.06,0.428,Active
+P200102,Perfume Elite 102,Beauty,Perfume,4382.04,0.396,Active
+P200103,Smartphone Plus 103,Electronics,Smartphone,7920.28,0.114,Active
+P200104,Tablet Max 104,Electronics,Tablet,53046.92,0.208,Active
+P200105,Chair Pro 105,Home & Kitchen,Chair,6510.45,0.366,Discontinued
+P200106,Cookware Max 106,Home & Kitchen,Cookware,12415.66,0.285,Active
+P200107,Sneakers Max 107,Fashion,Sneakers,1524.32,0.516,Active
+P200108,Laptop Max 108,Electronics,Laptop,7768.25,0.13,Active
+P200109,Smartphone Plus 109,Electronics,Smartphone,41790.86,0.212,Active
+P200110,Puzzle Elite 110,Toys,Puzzle,6116.64,0.355,Active
+P200111,Sunscreen Plus 111,Beauty,Sunscreen,1723.76,0.529,Active
+P200112,Smartphone Eco 112,Electronics,Smartphone,67807.38,0.215,Active
+P200113,Smartphone Eco 113,Electronics,Smartphone,49246.11,0.11,Active
+P200114,Lamp Max 114,Home & Kitchen,Lamp,681.77,0.338,Active
+P200115,T-Shirt Plus 115,Fashion,T-Shirt,5833.8,0.541,Active
+P200116,Makeup Kit Pro 116,Beauty,Makeup Kit,3546.34,0.563,Active
+P200117,T-Shirt Max 117,Fashion,T-Shirt,6572.66,0.361,Active
+P200118,Beverages Plus 118,Grocery,Beverages,1779.71,0.068,Active
+P200119,Tablet Elite 119,Electronics,Tablet,68551.67,0.21,Active
+P200120,Storage Plus 120,Home & Kitchen,Storage,1839.03,0.289,Active
+P200121,Coffee Elite 121,Grocery,Coffee,1590.84,0.15,Discontinued
+P200122,Dress Pro 122,Fashion,Dress,1179.39,0.351,Active
+P200123,Snacks Pro 123,Grocery,Snacks,362.49,0.157,Active
+P200124,Cycle Accessories Pro 124,Sports,Cycle Accessories,5673.03,0.418,Discontinued
+P200125,Mixer Plus 125,Home & Kitchen,Mixer,8381.04,0.2,Discontinued
+P200126,Laptop Pro 126,Electronics,Laptop,36178.01,0.18,Active
+P200127,Lamp Pro 127,Home & Kitchen,Lamp,4528.59,0.37,Discontinued
+P200128,Mixer Max 128,Home & Kitchen,Mixer,13986.17,0.224,Active
+P200129,Coffee Lite 129,Grocery,Coffee,427.21,0.095,Active
+P200130,Smartwatch Elite 130,Electronics,Smartwatch,81206.84,0.205,Active
+P200131,Dress Pro 131,Fashion,Dress,514.76,0.431,Active
+P200132,Chair Lite 132,Home & Kitchen,Chair,790.19,0.401,Active
+P200133,Hair Dryer Lite 133,Beauty,Hair Dryer,256.12,0.441,Active
+P200134,Jeans Eco 134,Fashion,Jeans,1123.26,0.513,Discontinued
+P200135,Hair Dryer Lite 135,Beauty,Hair Dryer,3681.54,0.59,Discontinued
+P200136,Skincare Pro 136,Beauty,Skincare,3140.37,0.501,Active
+P200137,Handbag Pro 137,Fashion,Handbag,1366.0,0.439,Active
+P200138,Headphones Pro 138,Electronics,Headphones,76160.96,0.136,Discontinued
+P200139,Cycle Accessories Elite 139,Sports,Cycle Accessories,11614.47,0.449,Discontinued
+P200140,Camera Lite 140,Electronics,Camera,12997.83,0.104,Active
+P200141,Coffee Max 141,Grocery,Coffee,2106.66,0.156,Active
+P200142,Remote Car Lite 142,Toys,Remote Car,5399.08,0.328,Active
+P200143,Camera Pro 143,Electronics,Camera,66003.39,0.182,Active
+P200144,Smartwatch Plus 144,Electronics,Smartwatch,65526.73,0.123,Discontinued
+P200145,Headphones Plus 145,Electronics,Headphones,21071.33,0.126,Active
+P200146,Mixer Max 146,Home & Kitchen,Mixer,12281.77,0.317,Active
+P200147,Breakfast Eco 147,Grocery,Breakfast,2087.45,0.089,Active
+P200148,Smartwatch Pro 148,Electronics,Smartwatch,35659.09,0.173,Active
+P200149,T-Shirt Plus 149,Fashion,T-Shirt,535.3,0.446,Active
+P200150,Chair Pro 150,Home & Kitchen,Chair,2324.67,0.184,Active
+P200151,Makeup Kit Pro 151,Beauty,Makeup Kit,436.57,0.445,Active
+P200152,T-Shirt Elite 152,Fashion,T-Shirt,3994.67,0.359,Discontinued
+P200153,Coffee Max 153,Grocery,Coffee,1200.9,0.073,Active
+P200154,Handbag Elite 154,Fashion,Handbag,2548.65,0.431,Active
+P200155,Handbag Elite 155,Fashion,Handbag,5869.53,0.494,Active
+P200156,Cycle Accessories Pro 156,Sports,Cycle Accessories,8807.67,0.224,Active
+P200157,Dress Elite 157,Fashion,Dress,2391.33,0.423,Active
+P200158,Hair Dryer Plus 158,Beauty,Hair Dryer,526.54,0.543,Discontinued
+P200159,Coffee Elite 159,Grocery,Coffee,1680.4,0.131,Active
+P200160,Laptop Max 160,Electronics,Laptop,39874.88,0.167,Active
+P200161,Jeans Elite 161,Fashion,Jeans,5335.22,0.483,Active
+P200162,Handbag Lite 162,Fashion,Handbag,6526.74,0.364,Active
+P200163,Cookware Eco 163,Home & Kitchen,Cookware,10333.83,0.416,Discontinued
+P200164,Beverages Plus 164,Grocery,Beverages,1880.89,0.082,Active
+P200165,Board Game Lite 165,Toys,Board Game,2918.36,0.252,Active
+P200166,Dress Plus 166,Fashion,Dress,6735.41,0.419,Active
+P200167,Jacket Elite 167,Fashion,Jacket,6665.13,0.468,Discontinued
+P200168,Beverages Lite 168,Grocery,Beverages,514.84,0.07,Discontinued
+P200169,Organic Staples Lite 169,Grocery,Organic Staples,1663.46,0.149,Discontinued
+P200170,Jeans Elite 170,Fashion,Jeans,1048.13,0.35,Active
+P200171,Jeans Pro 171,Fashion,Jeans,2983.36,0.43,Active
+P200172,Smartwatch Eco 172,Electronics,Smartwatch,37587.18,0.16,Active
+P200173,Cookware Lite 173,Home & Kitchen,Cookware,15890.54,0.373,Active
+P200174,Coffee Elite 174,Grocery,Coffee,1024.12,0.18,Active
+P200175,Children Lite 175,Books,Children,1336.3,0.127,Active
+P200176,Remote Car Lite 176,Toys,Remote Car,2475.14,0.252,Active
+P200177,Remote Car Pro 177,Toys,Remote Car,2917.63,0.269,Discontinued
+P200178,Coffee Eco 178,Grocery,Coffee,1305.11,0.092,Active
+P200179,Remote Car Eco 179,Toys,Remote Car,4113.23,0.269,Active
+P200180,Coffee Eco 180,Grocery,Coffee,556.24,0.061,Active
+P200181,Tablet Max 181,Electronics,Tablet,21328.41,0.084,Active
+P200182,Backpack Elite 182,Sports,Backpack,3658.06,0.252,Discontinued
+P200183,Storage Eco 183,Home & Kitchen,Storage,15661.2,0.184,Active
+P200184,T-Shirt Eco 184,Fashion,T-Shirt,3753.61,0.297,Active
+P200185,Cycle Accessories Elite 185,Sports,Cycle Accessories,6259.54,0.279,Active
+P200186,Makeup Kit Lite 186,Beauty,Makeup Kit,416.72,0.402,Active
+P200187,Mixer Eco 187,Home & Kitchen,Mixer,7844.89,0.23,Active
+P200188,Jacket Lite 188,Fashion,Jacket,2191.02,0.486,Active
+P200189,Handbag Eco 189,Fashion,Handbag,4151.65,0.441,Active
+P200190,Sneakers Lite 190,Fashion,Sneakers,4520.26,0.428,Discontinued
+P200191,Fiction Eco 191,Books,Fiction,1314.86,0.174,Discontinued
+P200192,Smartphone Elite 192,Electronics,Smartphone,42581.19,0.106,Active
+P200193,Tablet Plus 193,Electronics,Tablet,62779.5,0.165,Active
+P200194,Smartphone Plus 194,Electronics,Smartphone,34658.66,0.15,Discontinued
+P200195,Storage Plus 195,Home & Kitchen,Storage,17732.47,0.381,Active
+P200196,Chair Elite 196,Home & Kitchen,Chair,1734.8,0.292,Active
+P200197,Jacket Elite 197,Fashion,Jacket,879.19,0.362,Active
+P200198,T-Shirt Elite 198,Fashion,T-Shirt,4683.88,0.442,Active
+P200199,STEM Kit Plus 199,Toys,STEM Kit,3808.57,0.271,Discontinued
+P200200,Smartphone Eco 200,Electronics,Smartphone,74203.52,0.096,Discontinued
+P200201,Cookware Eco 201,Home & Kitchen,Cookware,2331.97,0.338,Active
+P200202,Headphones Elite 202,Electronics,Headphones,50215.04,0.14,Discontinued
+P200203,Camera Elite 203,Electronics,Camera,19708.97,0.183,Discontinued
+P200204,Headphones Max 204,Electronics,Headphones,36682.39,0.08,Discontinued
+P200205,Remote Car Eco 205,Toys,Remote Car,1005.87,0.245,Active
+P200206,Bedsheet Elite 206,Home & Kitchen,Bedsheet,6560.99,0.354,Active
+P200207,Cookware Eco 207,Home & Kitchen,Cookware,8487.73,0.311,Active
+P200208,T-Shirt Elite 208,Fashion,T-Shirt,3621.15,0.514,Active
+P200209,Smartphone Lite 209,Electronics,Smartphone,9340.69,0.141,Active
+P200210,Perfume Max 210,Beauty,Perfume,2599.15,0.348,Active
+P200211,Headphones Pro 211,Electronics,Headphones,61408.72,0.147,Active
+P200212,Dumbbells Elite 212,Sports,Dumbbells,11299.77,0.212,Active
+P200213,Cycle Accessories Elite 213,Sports,Cycle Accessories,12791.58,0.397,Discontinued
+P200214,Coffee Elite 214,Grocery,Coffee,119.7,0.171,Discontinued
+P200215,Storage Plus 215,Home & Kitchen,Storage,7730.64,0.255,Active
+P200216,Tablet Max 216,Electronics,Tablet,21907.06,0.081,Active
+P200217,Handbag Elite 217,Fashion,Handbag,6074.24,0.404,Active
+P200218,Tablet Elite 218,Electronics,Tablet,44596.51,0.186,Active
+P200219,Smartphone Eco 219,Electronics,Smartphone,36750.29,0.204,Discontinued
+P200220,Dumbbells Eco 220,Sports,Dumbbells,10531.16,0.25,Active
+P200221,Dress Pro 221,Fashion,Dress,6631.51,0.375,Discontinued
+P200222,Cycle Accessories Eco 222,Sports,Cycle Accessories,474.25,0.304,Active
+P200223,Sneakers Pro 223,Fashion,Sneakers,5137.01,0.324,Active
+P200224,Tablet Lite 224,Electronics,Tablet,43225.79,0.189,Discontinued
+P200225,Storage Eco 225,Home & Kitchen,Storage,15249.21,0.409,Active
+P200226,Bedsheet Plus 226,Home & Kitchen,Bedsheet,13309.84,0.207,Active
+P200227,Organic Staples Max 227,Grocery,Organic Staples,318.0,0.105,Active
+P200228,Laptop Eco 228,Electronics,Laptop,32633.91,0.094,Discontinued
+P200229,Fiction Lite 229,Books,Fiction,785.55,0.258,Discontinued
+P200230,T-Shirt Max 230,Fashion,T-Shirt,3290.11,0.434,Discontinued
+P200231,Board Game Plus 231,Toys,Board Game,6744.11,0.382,Active
+P200232,Business Pro 232,Books,Business,1831.12,0.235,Discontinued
+P200233,Lamp Eco 233,Home & Kitchen,Lamp,4608.94,0.21,Active
+P200234,Jacket Eco 234,Fashion,Jacket,6777.54,0.399,Active
+P200235,Camera Elite 235,Electronics,Camera,74042.44,0.145,Discontinued
+P200236,Exam Prep Eco 236,Books,Exam Prep,1093.04,0.257,Discontinued
+P200237,Coffee Elite 237,Grocery,Coffee,1303.65,0.094,Active
+P200238,Mixer Plus 238,Home & Kitchen,Mixer,3842.05,0.227,Active
+P200239,Headphones Lite 239,Electronics,Headphones,64799.9,0.193,Active
+P200240,Sunscreen Elite 240,Beauty,Sunscreen,4656.66,0.527,Active
+P200241,Cookware Lite 241,Home & Kitchen,Cookware,461.34,0.387,Discontinued
+P200242,Lamp Lite 242,Home & Kitchen,Lamp,11876.42,0.324,Active
+P200243,Mixer Pro 243,Home & Kitchen,Mixer,3608.26,0.271,Active
+P200244,Lamp Elite 244,Home & Kitchen,Lamp,14045.59,0.318,Active
+P200245,Perfume Lite 245,Beauty,Perfume,3447.43,0.397,Active
+P200246,Mixer Eco 246,Home & Kitchen,Mixer,15238.94,0.25,Active
+P200247,Smartphone Max 247,Electronics,Smartphone,38426.23,0.169,Active
+P200248,Tablet Elite 248,Electronics,Tablet,31933.31,0.119,Discontinued
+P200249,Cycle Accessories Elite 249,Sports,Cycle Accessories,7021.45,0.368,Active
+P200250,Storage Plus 250,Home & Kitchen,Storage,9266.07,0.285,Active
+P200251,Fiction Elite 251,Books,Fiction,871.65,0.159,Active
+P200252,Bedsheet Lite 252,Home & Kitchen,Bedsheet,17391.45,0.236,Active
+P200253,Sneakers Plus 253,Fashion,Sneakers,2930.98,0.499,Active
+P200254,Perfume Max 254,Beauty,Perfume,4983.71,0.568,Discontinued
+P200255,Mixer Pro 255,Home & Kitchen,Mixer,3499.0,0.311,Discontinued
+P200256,Jacket Max 256,Fashion,Jacket,5727.68,0.43,Active
+P200257,Smartwatch Plus 257,Electronics,Smartwatch,43558.94,0.088,Active
+P200258,Sneakers Lite 258,Fashion,Sneakers,558.35,0.314,Active
+P200259,Skincare Pro 259,Beauty,Skincare,2919.67,0.352,Active
+P200260,Handbag Pro 260,Fashion,Handbag,5216.85,0.43,Active
+P200261,Headphones Pro 261,Electronics,Headphones,32904.89,0.115,Discontinued
+P200262,Bedsheet Max 262,Home & Kitchen,Bedsheet,6410.93,0.227,Active
+P200263,Camera Pro 263,Electronics,Camera,7008.17,0.192,Active
+P200264,Sunscreen Elite 264,Beauty,Sunscreen,1871.55,0.494,Active
+P200265,Tablet Pro 265,Electronics,Tablet,61006.29,0.105,Active
+P200266,Camera Eco 266,Electronics,Camera,41986.23,0.101,Active
+P200267,T-Shirt Max 267,Fashion,T-Shirt,2703.97,0.294,Discontinued
+P200268,Handbag Elite 268,Fashion,Handbag,5412.03,0.475,Active
+P200269,Tablet Max 269,Electronics,Tablet,74695.42,0.184,Active
+P200270,Storage Lite 270,Home & Kitchen,Storage,5429.7,0.312,Active
+P200271,Fiction Pro 271,Books,Fiction,1564.68,0.237,Active
+P200272,Perfume Elite 272,Beauty,Perfume,3262.92,0.349,Active
+P200273,Tablet Eco 273,Electronics,Tablet,42468.83,0.211,Active
+P200274,Fiction Pro 274,Books,Fiction,260.24,0.124,Active
+P200275,Cookware Elite 275,Home & Kitchen,Cookware,7087.94,0.322,Active
+P200276,Tablet Plus 276,Electronics,Tablet,13272.94,0.172,Discontinued
+P200277,Shoes Max 277,Sports,Shoes,8494.1,0.228,Active
+P200278,Storage Eco 278,Home & Kitchen,Storage,4122.46,0.182,Active
+P200279,T-Shirt Eco 279,Fashion,T-Shirt,5971.78,0.483,Active
+P200280,Smartwatch Max 280,Electronics,Smartwatch,10107.88,0.14,Discontinued
+P200281,Snacks Pro 281,Grocery,Snacks,766.61,0.097,Active
+P200282,Camera Eco 282,Electronics,Camera,61022.81,0.104,Active
+P200283,Hair Dryer Eco 283,Beauty,Hair Dryer,3909.54,0.324,Discontinued
+P200284,Smartphone Pro 284,Electronics,Smartphone,41464.03,0.212,Active
+P200285,Snacks Max 285,Grocery,Snacks,2291.31,0.169,Active
+P200286,Dress Elite 286,Fashion,Dress,5293.81,0.44,Active
+P200287,Hair Dryer Plus 287,Beauty,Hair Dryer,3082.52,0.549,Discontinued
+P200288,Handbag Pro 288,Fashion,Handbag,3927.65,0.521,Active
+P200289,Jeans Elite 289,Fashion,Jeans,3928.3,0.535,Active
+P200290,Lamp Elite 290,Home & Kitchen,Lamp,16305.59,0.346,Active
+P200291,Storage Elite 291,Home & Kitchen,Storage,16880.41,0.192,Active
+P200292,Camera Eco 292,Electronics,Camera,54374.28,0.171,Active
+P200293,Jeans Eco 293,Fashion,Jeans,3116.02,0.39,Active
+P200294,Headphones Pro 294,Electronics,Headphones,17881.56,0.098,Discontinued
+P200295,Business Lite 295,Books,Business,1593.71,0.269,Discontinued
+P200296,Dress Max 296,Fashion,Dress,6009.68,0.445,Discontinued
+P200297,Dress Elite 297,Fashion,Dress,6576.27,0.507,Active
+P200298,Self Help Eco 298,Books,Self Help,1901.27,0.261,Active
+P200299,Jeans Max 299,Fashion,Jeans,4869.44,0.395,Active
+P200300,Handbag Max 300,Fashion,Handbag,1421.78,0.394,Discontinued
+P200301,Lamp Plus 301,Home & Kitchen,Lamp,522.41,0.227,Discontinued
+P200302,Dress Lite 302,Fashion,Dress,5901.76,0.376,Discontinued
+P200303,Headphones Lite 303,Electronics,Headphones,76058.83,0.112,Active
+P200304,Jacket Plus 304,Fashion,Jacket,960.77,0.418,Active
+P200305,Organic Staples Elite 305,Grocery,Organic Staples,2058.51,0.164,Active
+P200306,Jeans Lite 306,Fashion,Jeans,4720.79,0.285,Active
+P200307,Storage Max 307,Home & Kitchen,Storage,17745.88,0.413,Active
+P200308,Dress Max 308,Fashion,Dress,3147.12,0.36,Active
+P200309,Makeup Kit Lite 309,Beauty,Makeup Kit,4895.76,0.316,Discontinued
+P200310,Cycle Accessories Max 310,Sports,Cycle Accessories,4787.37,0.25,Active
+P200311,Snacks Eco 311,Grocery,Snacks,666.92,0.138,Active
+P200312,Board Game Eco 312,Toys,Board Game,1085.32,0.357,Active
+P200313,Laptop Eco 313,Electronics,Laptop,43400.47,0.114,Active
+P200314,Snacks Plus 314,Grocery,Snacks,2103.48,0.164,Active
+P200315,Cookware Eco 315,Home & Kitchen,Cookware,12783.27,0.295,Active
+P200316,Lamp Eco 316,Home & Kitchen,Lamp,17132.02,0.194,Active
+P200317,Shoes Eco 317,Sports,Shoes,7111.24,0.394,Discontinued
+P200318,Skincare Pro 318,Beauty,Skincare,226.48,0.551,Active
+P200319,Smartphone Plus 319,Electronics,Smartphone,68280.12,0.174,Active
+P200320,Tablet Plus 320,Electronics,Tablet,28216.2,0.142,Active
+P200321,Smartwatch Eco 321,Electronics,Smartwatch,57205.13,0.099,Active
+P200322,Children Pro 322,Books,Children,1424.25,0.129,Active
+P200323,Perfume Pro 323,Beauty,Perfume,819.26,0.383,Active
+P200324,Shoes Plus 324,Sports,Shoes,12510.0,0.226,Active
+P200325,Lamp Elite 325,Home & Kitchen,Lamp,10146.78,0.336,Active
+P200326,Smartphone Eco 326,Electronics,Smartphone,64168.51,0.162,Active
+P200327,Mixer Plus 327,Home & Kitchen,Mixer,845.52,0.4,Active
+P200328,Fiction Elite 328,Books,Fiction,770.01,0.203,Active
+P200329,Lamp Pro 329,Home & Kitchen,Lamp,6900.97,0.224,Active
+P200330,Camera Eco 330,Electronics,Camera,14299.54,0.153,Discontinued
+P200331,Cookware Eco 331,Home & Kitchen,Cookware,13815.46,0.211,Active
+P200332,Lamp Max 332,Home & Kitchen,Lamp,16937.03,0.319,Active
+P200333,Camera Plus 333,Electronics,Camera,61059.59,0.179,Active
+P200334,Headphones Plus 334,Electronics,Headphones,15437.9,0.081,Active
+P200335,Perfume Eco 335,Beauty,Perfume,2873.14,0.582,Active
+P200336,Exam Prep Eco 336,Books,Exam Prep,293.49,0.183,Active
+P200337,Breakfast Elite 337,Grocery,Breakfast,2396.67,0.158,Discontinued
+P200338,Smartwatch Pro 338,Electronics,Smartwatch,40573.78,0.141,Discontinued
+P200339,Cookware Lite 339,Home & Kitchen,Cookware,2262.96,0.296,Discontinued
+P200340,Cookware Max 340,Home & Kitchen,Cookware,17654.29,0.394,Active
+P200341,Fiction Pro 341,Books,Fiction,623.71,0.293,Discontinued
+P200342,Shoes Lite 342,Sports,Shoes,6065.15,0.36,Active
+P200343,Handbag Elite 343,Fashion,Handbag,3960.25,0.451,Active
+P200344,Sneakers Pro 344,Fashion,Sneakers,945.89,0.378,Active
+P200345,Skincare Plus 345,Beauty,Skincare,3244.9,0.516,Active
+P200346,Doll Max 346,Toys,Doll,3772.69,0.288,Active
+P200347,Jeans Plus 347,Fashion,Jeans,3293.45,0.491,Discontinued
+P200348,Perfume Eco 348,Beauty,Perfume,1661.26,0.502,Active
+P200349,Children Max 349,Books,Children,497.18,0.286,Active
+P200350,T-Shirt Max 350,Fashion,T-Shirt,6963.17,0.411,Active
+P200351,Mixer Elite 351,Home & Kitchen,Mixer,2181.09,0.28,Active
+P200352,Smartwatch Plus 352,Electronics,Smartwatch,56698.99,0.097,Active
+P200353,Cycle Accessories Eco 353,Sports,Cycle Accessories,10659.43,0.428,Active
+P200354,Backpack Elite 354,Sports,Backpack,11062.48,0.427,Active
+P200355,Skincare Elite 355,Beauty,Skincare,856.41,0.538,Active
+P200356,Jeans Eco 356,Fashion,Jeans,2878.1,0.318,Active
+P200357,Lamp Pro 357,Home & Kitchen,Lamp,9746.29,0.287,Active
+P200358,Sunscreen Elite 358,Beauty,Sunscreen,4181.08,0.3,Discontinued
+P200359,Bedsheet Elite 359,Home & Kitchen,Bedsheet,16003.63,0.195,Active
+P200360,Lamp Lite 360,Home & Kitchen,Lamp,2787.46,0.191,Active
+P200361,Laptop Elite 361,Electronics,Laptop,72561.19,0.2,Active
+P200362,T-Shirt Pro 362,Fashion,T-Shirt,2240.36,0.364,Active
+P200363,Chair Lite 363,Home & Kitchen,Chair,17329.37,0.257,Active
+P200364,Self Help Max 364,Books,Self Help,643.24,0.2,Active
+P200365,Smartwatch Pro 365,Electronics,Smartwatch,71238.05,0.131,Active
+P200366,Coffee Elite 366,Grocery,Coffee,1337.88,0.079,Active
+P200367,Organic Staples Max 367,Grocery,Organic Staples,1536.85,0.161,Active
+P200368,Dumbbells Eco 368,Sports,Dumbbells,9309.22,0.264,Active
+P200369,Tablet Elite 369,Electronics,Tablet,76519.85,0.169,Discontinued
+P200370,Mixer Max 370,Home & Kitchen,Mixer,9370.89,0.275,Active
+P200371,Hair Dryer Lite 371,Beauty,Hair Dryer,902.29,0.557,Active
+P200372,Cookware Elite 372,Home & Kitchen,Cookware,4561.31,0.293,Active
+P200373,Perfume Lite 373,Beauty,Perfume,4038.59,0.533,Active
+P200374,Bedsheet Eco 374,Home & Kitchen,Bedsheet,10846.96,0.35,Active
+P200375,Remote Car Eco 375,Toys,Remote Car,3022.73,0.183,Discontinued
+P200376,Organic Staples Pro 376,Grocery,Organic Staples,1122.84,0.119,Active
+P200377,Cookware Elite 377,Home & Kitchen,Cookware,7927.83,0.27,Discontinued
+P200378,Sunscreen Pro 378,Beauty,Sunscreen,4022.73,0.363,Discontinued
+P200379,Children Lite 379,Books,Children,379.94,0.208,Active
+P200380,Mixer Pro 380,Home & Kitchen,Mixer,4271.31,0.291,Active
+P200381,Beverages Max 381,Grocery,Beverages,627.02,0.143,Active
+P200382,T-Shirt Plus 382,Fashion,T-Shirt,2851.15,0.495,Active
+P200383,Snacks Plus 383,Grocery,Snacks,1466.58,0.096,Active
+P200384,Bedsheet Elite 384,Home & Kitchen,Bedsheet,14726.83,0.203,Discontinued
+P200385,Skincare Plus 385,Beauty,Skincare,2254.79,0.361,Active
+P200386,Smartwatch Plus 386,Electronics,Smartwatch,79694.86,0.149,Active
+P200387,T-Shirt Max 387,Fashion,T-Shirt,5522.28,0.54,Discontinued
+P200388,Bedsheet Elite 388,Home & Kitchen,Bedsheet,2538.74,0.371,Discontinued
+P200389,Tablet Eco 389,Electronics,Tablet,79786.6,0.184,Discontinued
+P200390,Yoga Mat Plus 390,Sports,Yoga Mat,6976.13,0.272,Active
+P200391,Laptop Plus 391,Electronics,Laptop,24796.93,0.108,Active
+P200392,Breakfast Eco 392,Grocery,Breakfast,449.57,0.156,Active
+P200393,Snacks Plus 393,Grocery,Snacks,1722.65,0.109,Active
+P200394,Lamp Lite 394,Home & Kitchen,Lamp,6402.62,0.399,Discontinued
+P200395,T-Shirt Elite 395,Fashion,T-Shirt,2867.18,0.367,Active
+P200396,Yoga Mat Plus 396,Sports,Yoga Mat,1271.57,0.385,Active
+P200397,Children Pro 397,Books,Children,1577.26,0.269,Active
+P200398,Sunscreen Lite 398,Beauty,Sunscreen,3851.14,0.408,Active
+P200399,Beverages Lite 399,Grocery,Beverages,2365.26,0.069,Discontinued
+P200400,Sneakers Pro 400,Fashion,Sneakers,1625.42,0.499,Discontinued
+P200401,Laptop Max 401,Electronics,Laptop,58587.1,0.214,Active
+P200402,Smartphone Elite 402,Electronics,Smartphone,61982.07,0.169,Active
+P200403,Skincare Max 403,Beauty,Skincare,2696.98,0.488,Active
+P200404,Bedsheet Plus 404,Home & Kitchen,Bedsheet,3783.07,0.222,Active
+P200405,Lamp Max 405,Home & Kitchen,Lamp,4626.65,0.234,Discontinued
+P200406,Sunscreen Lite 406,Beauty,Sunscreen,356.81,0.468,Active
+P200407,Mixer Max 407,Home & Kitchen,Mixer,4466.41,0.314,Active
+P200408,Headphones Plus 408,Electronics,Headphones,71400.69,0.111,Active
+P200409,Board Game Lite 409,Toys,Board Game,4023.98,0.334,Active
+P200410,Smartwatch Lite 410,Electronics,Smartwatch,62748.54,0.13,Active
+P200411,Doll Pro 411,Toys,Doll,6692.9,0.3,Active
+P200412,Organic Staples Eco 412,Grocery,Organic Staples,820.08,0.147,Active
+P200413,Hair Dryer Eco 413,Beauty,Hair Dryer,2690.51,0.509,Active
+P200414,Remote Car Max 414,Toys,Remote Car,6766.9,0.378,Discontinued
+P200415,Headphones Plus 415,Electronics,Headphones,21967.51,0.142,Active
+P200416,Handbag Pro 416,Fashion,Handbag,5311.55,0.485,Discontinued
+P200417,Cycle Accessories Pro 417,Sports,Cycle Accessories,7840.2,0.366,Active
+P200418,Lamp Eco 418,Home & Kitchen,Lamp,11991.82,0.389,Discontinued
+P200419,Laptop Eco 419,Electronics,Laptop,35898.75,0.116,Active
+P200420,Camera Elite 420,Electronics,Camera,25598.89,0.214,Active
+P200421,Beverages Pro 421,Grocery,Beverages,2071.45,0.152,Discontinued
+P200422,Hair Dryer Eco 422,Beauty,Hair Dryer,4511.02,0.32,Active
+P200423,Jeans Eco 423,Fashion,Jeans,4173.58,0.482,Discontinued
+P200424,Chair Eco 424,Home & Kitchen,Chair,17672.09,0.416,Active
+P200425,Smartwatch Elite 425,Electronics,Smartwatch,81389.91,0.216,Active
+P200426,Cookware Max 426,Home & Kitchen,Cookware,5091.47,0.252,Active
+P200427,Laptop Max 427,Electronics,Laptop,59515.69,0.184,Active
+P200428,Hair Dryer Eco 428,Beauty,Hair Dryer,2671.15,0.356,Active
+P200429,Lamp Plus 429,Home & Kitchen,Lamp,13331.65,0.275,Active
+P200430,STEM Kit Max 430,Toys,STEM Kit,4273.78,0.319,Discontinued
+P200431,Jeans Pro 431,Fashion,Jeans,6766.64,0.286,Active
+P200432,Dress Max 432,Fashion,Dress,5422.95,0.514,Active
+P200433,Laptop Pro 433,Electronics,Laptop,51444.98,0.158,Active
+P200434,Bedsheet Pro 434,Home & Kitchen,Bedsheet,13862.0,0.347,Discontinued
+P200435,Storage Eco 435,Home & Kitchen,Storage,12150.21,0.403,Discontinued
+P200436,Cookware Max 436,Home & Kitchen,Cookware,16642.12,0.233,Active
+P200437,Sunscreen Pro 437,Beauty,Sunscreen,4618.0,0.57,Active
+P200438,Skincare Lite 438,Beauty,Skincare,4991.88,0.468,Active
+P200439,Camera Max 439,Electronics,Camera,32799.55,0.195,Active
+P200440,Headphones Lite 440,Electronics,Headphones,13467.54,0.124,Discontinued
+P200441,Hair Dryer Elite 441,Beauty,Hair Dryer,3479.01,0.37,Active
+P200442,Jacket Lite 442,Fashion,Jacket,1020.44,0.444,Active
+P200443,Sneakers Eco 443,Fashion,Sneakers,4979.91,0.452,Active
+P200444,Business Elite 444,Books,Business,1879.92,0.17,Active
+P200445,Beverages Max 445,Grocery,Beverages,1531.76,0.094,Active
+P200446,Storage Plus 446,Home & Kitchen,Storage,11420.37,0.372,Discontinued
+P200447,Bedsheet Pro 447,Home & Kitchen,Bedsheet,15990.84,0.337,Active
+P200448,Laptop Pro 448,Electronics,Laptop,31518.3,0.164,Active
+P200449,Fiction Max 449,Books,Fiction,668.28,0.233,Active
+P200450,Remote Car Max 450,Toys,Remote Car,1708.77,0.181,Active
+P200451,Tablet Pro 451,Electronics,Tablet,56158.76,0.206,Discontinued
+P200452,Sneakers Eco 452,Fashion,Sneakers,3808.15,0.434,Active
+P200453,Jeans Pro 453,Fashion,Jeans,6385.88,0.341,Discontinued
+P200454,Dumbbells Eco 454,Sports,Dumbbells,6733.68,0.418,Active
+P200455,Shoes Max 455,Sports,Shoes,5529.95,0.263,Discontinued
+P200456,Storage Max 456,Home & Kitchen,Storage,16781.1,0.398,Discontinued
+P200457,Chair Plus 457,Home & Kitchen,Chair,657.53,0.18,Active
+P200458,Jeans Lite 458,Fashion,Jeans,5995.31,0.402,Active
+P200459,Headphones Plus 459,Electronics,Headphones,32558.23,0.122,Active
+P200460,Remote Car Lite 460,Toys,Remote Car,4473.55,0.183,Active
+P200461,Mixer Lite 461,Home & Kitchen,Mixer,17022.84,0.292,Active
+P200462,Sneakers Elite 462,Fashion,Sneakers,2911.05,0.462,Active
+P200463,Hair Dryer Lite 463,Beauty,Hair Dryer,2467.75,0.461,Active
+P200464,Mixer Pro 464,Home & Kitchen,Mixer,12810.27,0.228,Active
+P200465,Handbag Max 465,Fashion,Handbag,6241.34,0.312,Discontinued
+P200466,Smartwatch Elite 466,Electronics,Smartwatch,45315.16,0.146,Active
+P200467,Storage Lite 467,Home & Kitchen,Storage,12982.28,0.302,Active
+P200468,Backpack Plus 468,Sports,Backpack,4238.06,0.439,Discontinued
+P200469,Tablet Plus 469,Electronics,Tablet,5288.66,0.115,Discontinued
+P200470,Yoga Mat Max 470,Sports,Yoga Mat,8614.25,0.419,Active
+P200471,Cookware Lite 471,Home & Kitchen,Cookware,4297.5,0.296,Discontinued
+P200472,Smartphone Max 472,Electronics,Smartphone,29127.47,0.125,Active
+P200473,Self Help Plus 473,Books,Self Help,1084.77,0.273,Discontinued
+P200474,Jeans Eco 474,Fashion,Jeans,1476.84,0.339,Discontinued
+P200475,Backpack Max 475,Sports,Backpack,9971.56,0.339,Active
+P200476,T-Shirt Pro 476,Fashion,T-Shirt,1890.47,0.302,Active
+P200477,Smartwatch Eco 477,Electronics,Smartwatch,46082.5,0.21,Discontinued
+P200478,Sneakers Max 478,Fashion,Sneakers,6854.7,0.392,Active
+P200479,Laptop Lite 479,Electronics,Laptop,77413.25,0.162,Discontinued
+P200480,Board Game Plus 480,Toys,Board Game,6689.33,0.315,Active
+P200481,Dress Elite 481,Fashion,Dress,6192.81,0.475,Discontinued
+P200482,Smartphone Eco 482,Electronics,Smartphone,24369.43,0.158,Active
+P200483,T-Shirt Lite 483,Fashion,T-Shirt,4282.09,0.442,Active
+P200484,Sneakers Plus 484,Fashion,Sneakers,1218.95,0.377,Active
+P200485,Laptop Max 485,Electronics,Laptop,50781.97,0.103,Active
+P200486,Laptop Plus 486,Electronics,Laptop,68022.83,0.172,Active
+P200487,Lamp Max 487,Home & Kitchen,Lamp,13008.36,0.334,Discontinued
+P200488,Handbag Max 488,Fashion,Handbag,2168.92,0.36,Active
+P200489,Snacks Plus 489,Grocery,Snacks,204.04,0.099,Active
+P200490,Headphones Elite 490,Electronics,Headphones,34453.51,0.083,Discontinued
+P200491,Smartwatch Max 491,Electronics,Smartwatch,17923.93,0.216,Discontinued
+P200492,Chair Eco 492,Home & Kitchen,Chair,2116.46,0.347,Active
+P200493,Headphones Max 493,Electronics,Headphones,9397.93,0.13,Active
+P200494,Sunscreen Plus 494,Beauty,Sunscreen,3812.62,0.493,Active
+P200495,Shoes Elite 495,Sports,Shoes,3446.99,0.385,Discontinued
+P200496,Laptop Elite 496,Electronics,Laptop,39227.09,0.111,Discontinued
+P200497,Beverages Elite 497,Grocery,Beverages,2484.88,0.081,Active
+P200498,Tablet Elite 498,Electronics,Tablet,3702.13,0.215,Active
+P200499,Makeup Kit Elite 499,Beauty,Makeup Kit,1084.1,0.311,Active
+P200500,Smartwatch Max 500,Electronics,Smartwatch,14117.83,0.139,Active
+P200501,Snacks Elite 501,Grocery,Snacks,610.3,0.156,Active
+P200502,Shoes Eco 502,Sports,Shoes,10487.55,0.321,Active
+P200503,Jacket Plus 503,Fashion,Jacket,4468.05,0.544,Active
+P200504,Tablet Elite 504,Electronics,Tablet,12095.17,0.117,Active
+P200505,Business Lite 505,Books,Business,1222.29,0.236,Active
+P200506,Skincare Lite 506,Beauty,Skincare,4782.67,0.351,Active
+P200507,Tablet Elite 507,Electronics,Tablet,22827.96,0.097,Active
+P200508,Sunscreen Lite 508,Beauty,Sunscreen,2175.25,0.41,Active
+P200509,Sneakers Lite 509,Fashion,Sneakers,1182.03,0.299,Active
+P200510,Dress Eco 510,Fashion,Dress,5840.3,0.369,Active
+P200511,Jeans Elite 511,Fashion,Jeans,746.9,0.405,Discontinued
+P200512,Jacket Eco 512,Fashion,Jacket,3588.14,0.464,Active
+P200513,Jeans Lite 513,Fashion,Jeans,755.58,0.407,Active
+P200514,Storage Pro 514,Home & Kitchen,Storage,16421.91,0.311,Active
+P200515,Smartphone Lite 515,Electronics,Smartphone,57156.33,0.112,Active
+P200516,Makeup Kit Pro 516,Beauty,Makeup Kit,1548.95,0.474,Active
+P200517,Organic Staples Eco 517,Grocery,Organic Staples,2029.99,0.18,Active
+P200518,Laptop Plus 518,Electronics,Laptop,44256.67,0.087,Active
+P200519,Lamp Pro 519,Home & Kitchen,Lamp,9098.54,0.258,Active
+P200520,Beverages Plus 520,Grocery,Beverages,1295.57,0.155,Active
+P200521,Exam Prep Eco 521,Books,Exam Prep,404.48,0.137,Discontinued
+P200522,Storage Eco 522,Home & Kitchen,Storage,6246.51,0.348,Discontinued
+P200523,Camera Max 523,Electronics,Camera,29126.75,0.135,Active
+P200524,Storage Plus 524,Home & Kitchen,Storage,4065.47,0.344,Active
+P200525,Organic Staples Max 525,Grocery,Organic Staples,374.86,0.14,Active
+P200526,Jacket Pro 526,Fashion,Jacket,2230.22,0.518,Active
+P200527,Fiction Lite 527,Books,Fiction,250.75,0.251,Active
+P200528,Jacket Lite 528,Fashion,Jacket,2352.05,0.408,Active
+P200529,Organic Staples Max 529,Grocery,Organic Staples,2053.15,0.078,Active
+P200530,Smartphone Elite 530,Electronics,Smartphone,55474.09,0.091,Active
+P200531,Dumbbells Lite 531,Sports,Dumbbells,2125.01,0.208,Active
+P200532,Smartwatch Max 532,Electronics,Smartwatch,11348.98,0.106,Active
+P200533,Children Eco 533,Books,Children,1542.67,0.216,Active
+P200534,Remote Car Eco 534,Toys,Remote Car,6002.06,0.363,Active
+P200535,Headphones Lite 535,Electronics,Headphones,40348.92,0.206,Active
+P200536,Tablet Max 536,Electronics,Tablet,55910.22,0.084,Discontinued
+P200537,Smartwatch Lite 537,Electronics,Smartwatch,69000.26,0.114,Active
+P200538,T-Shirt Max 538,Fashion,T-Shirt,6947.7,0.307,Active
+P200539,Makeup Kit Lite 539,Beauty,Makeup Kit,4506.16,0.421,Active
+P200540,Sunscreen Max 540,Beauty,Sunscreen,1227.52,0.386,Discontinued
+P200541,Children Pro 541,Books,Children,1290.84,0.121,Active
+P200542,Bedsheet Elite 542,Home & Kitchen,Bedsheet,478.2,0.33,Active
+P200543,Hair Dryer Lite 543,Beauty,Hair Dryer,2966.07,0.345,Discontinued
+P200544,Sneakers Plus 544,Fashion,Sneakers,5935.3,0.327,Discontinued
+P200545,Tablet Plus 545,Electronics,Tablet,66317.87,0.129,Discontinued
+P200546,Sneakers Lite 546,Fashion,Sneakers,2089.76,0.356,Discontinued
+P200547,Smartwatch Lite 547,Electronics,Smartwatch,33222.72,0.1,Active
+P200548,Self Help Pro 548,Books,Self Help,1213.49,0.139,Active
+P200549,Tablet Pro 549,Electronics,Tablet,39464.55,0.084,Discontinued
+P200550,Beverages Pro 550,Grocery,Beverages,444.65,0.085,Active
+P200551,Chair Eco 551,Home & Kitchen,Chair,14093.68,0.199,Active
+P200552,Camera Elite 552,Electronics,Camera,8526.1,0.183,Active
+P200553,Cycle Accessories Pro 553,Sports,Cycle Accessories,9086.16,0.412,Active
+P200554,T-Shirt Max 554,Fashion,T-Shirt,2144.08,0.514,Discontinued
+P200555,Tablet Eco 555,Electronics,Tablet,3494.51,0.101,Active
+P200556,Handbag Plus 556,Fashion,Handbag,5401.93,0.486,Active
+P200557,Camera Max 557,Electronics,Camera,61312.8,0.101,Active
+P200558,Mixer Lite 558,Home & Kitchen,Mixer,14206.21,0.219,Active
+P200559,Makeup Kit Plus 559,Beauty,Makeup Kit,4017.23,0.429,Active
+P200560,Makeup Kit Max 560,Beauty,Makeup Kit,4926.76,0.441,Discontinued
+P200561,Bedsheet Eco 561,Home & Kitchen,Bedsheet,17252.08,0.281,Active
+P200562,Skincare Elite 562,Beauty,Skincare,1145.86,0.471,Discontinued
+P200563,Exam Prep Lite 563,Books,Exam Prep,293.27,0.185,Active
+P200564,Camera Plus 564,Electronics,Camera,18209.89,0.199,Discontinued
+P200565,Handbag Eco 565,Fashion,Handbag,5479.05,0.311,Active
+P200566,Jacket Elite 566,Fashion,Jacket,5429.88,0.309,Active
+P200567,Snacks Plus 567,Grocery,Snacks,532.27,0.071,Active
+P200568,Dress Max 568,Fashion,Dress,6803.79,0.404,Active
+P200569,Jeans Elite 569,Fashion,Jeans,4828.36,0.346,Active
+P200570,Smartwatch Elite 570,Electronics,Smartwatch,79337.24,0.127,Discontinued
+P200571,Self Help Pro 571,Books,Self Help,614.3,0.285,Discontinued
+P200572,Laptop Plus 572,Electronics,Laptop,52636.01,0.188,Active
+P200573,Backpack Elite 573,Sports,Backpack,6201.59,0.433,Active
+P200574,Laptop Lite 574,Electronics,Laptop,62915.55,0.092,Discontinued
+P200575,Fiction Eco 575,Books,Fiction,859.86,0.299,Active
+P200576,Jeans Max 576,Fashion,Jeans,1952.08,0.304,Active
+P200577,T-Shirt Max 577,Fashion,T-Shirt,6273.06,0.506,Active
+P200578,Coffee Plus 578,Grocery,Coffee,1049.92,0.072,Active
+P200579,Dress Pro 579,Fashion,Dress,1129.99,0.481,Active
+P200580,Cycle Accessories Max 580,Sports,Cycle Accessories,925.39,0.342,Active
+P200581,Camera Elite 581,Electronics,Camera,24967.87,0.091,Active
+P200582,Children Plus 582,Books,Children,1601.36,0.24,Active
+P200583,Cookware Plus 583,Home & Kitchen,Cookware,9231.83,0.251,Active
+P200584,Storage Max 584,Home & Kitchen,Storage,8735.29,0.192,Active
+P200585,STEM Kit Lite 585,Toys,STEM Kit,6928.31,0.182,Active
+P200586,Backpack Lite 586,Sports,Backpack,6050.26,0.241,Active
+P200587,Remote Car Elite 587,Toys,Remote Car,4571.8,0.396,Active
+P200588,Smartwatch Eco 588,Electronics,Smartwatch,55723.8,0.186,Active
+P200589,Coffee Max 589,Grocery,Coffee,248.15,0.104,Discontinued
+P200590,Sneakers Lite 590,Fashion,Sneakers,3568.35,0.324,Discontinued
+P200591,Storage Plus 591,Home & Kitchen,Storage,1706.49,0.297,Discontinued
+P200592,Tablet Pro 592,Electronics,Tablet,48790.27,0.083,Discontinued
+P200593,Bedsheet Plus 593,Home & Kitchen,Bedsheet,4712.44,0.335,Active
+P200594,Shoes Max 594,Sports,Shoes,11205.7,0.317,Active
+P200595,Self Help Plus 595,Books,Self Help,1144.49,0.195,Discontinued
+P200596,Beverages Plus 596,Grocery,Beverages,428.5,0.177,Active
+P200597,Smartwatch Plus 597,Electronics,Smartwatch,30531.62,0.16,Active
+P200598,Children Elite 598,Books,Children,1165.31,0.123,Discontinued
+P200599,Snacks Plus 599,Grocery,Snacks,751.78,0.103,Active
+P200600,Storage Elite 600,Home & Kitchen,Storage,6419.87,0.395,Discontinued
+P200601,Headphones Plus 601,Electronics,Headphones,40669.71,0.109,Active
+P200602,Sneakers Max 602,Fashion,Sneakers,6168.09,0.459,Discontinued
+P200603,Handbag Elite 603,Fashion,Handbag,5773.63,0.307,Active
+P200604,Sneakers Lite 604,Fashion,Sneakers,1270.99,0.406,Discontinued
+P200605,Storage Plus 605,Home & Kitchen,Storage,9484.94,0.266,Active
+P200606,Beverages Max 606,Grocery,Beverages,1996.62,0.157,Active
+P200607,Laptop Plus 607,Electronics,Laptop,80984.53,0.092,Active
+P200608,Jeans Max 608,Fashion,Jeans,3761.18,0.427,Active
+P200609,Beverages Lite 609,Grocery,Beverages,1534.68,0.176,Active
+P200610,Organic Staples Elite 610,Grocery,Organic Staples,717.8,0.12,Active
+P200611,Remote Car Elite 611,Toys,Remote Car,4585.37,0.371,Active
+P200612,Lamp Lite 612,Home & Kitchen,Lamp,12167.56,0.398,Active
+P200613,Beverages Max 613,Grocery,Beverages,2292.59,0.17,Active
+P200614,Headphones Pro 614,Electronics,Headphones,74235.72,0.181,Active
+P200615,Laptop Pro 615,Electronics,Laptop,60528.29,0.2,Active
+P200616,Cycle Accessories Plus 616,Sports,Cycle Accessories,12483.67,0.238,Discontinued
+P200617,Tablet Elite 617,Electronics,Tablet,15490.54,0.129,Discontinued
+P200618,Smartphone Elite 618,Electronics,Smartphone,77040.08,0.189,Active
+P200619,Smartwatch Pro 619,Electronics,Smartwatch,5684.22,0.212,Active
+P200620,Laptop Eco 620,Electronics,Laptop,27825.57,0.144,Active
+P200621,Skincare Eco 621,Beauty,Skincare,4951.82,0.535,Active
+P200622,Headphones Plus 622,Electronics,Headphones,56838.55,0.158,Active
+P200623,Smartphone Plus 623,Electronics,Smartphone,16178.38,0.083,Active
+P200624,Self Help Max 624,Books,Self Help,865.88,0.197,Active
+P200625,Perfume Max 625,Beauty,Perfume,1649.2,0.5,Active
+P200626,Children Plus 626,Books,Children,1674.97,0.255,Active
+P200627,Sneakers Eco 627,Fashion,Sneakers,3280.92,0.486,Active
+P200628,Headphones Plus 628,Electronics,Headphones,28689.01,0.099,Active
+P200629,T-Shirt Lite 629,Fashion,T-Shirt,671.16,0.329,Discontinued
+P200630,T-Shirt Elite 630,Fashion,T-Shirt,6525.69,0.291,Active
+P200631,Children Lite 631,Books,Children,1929.33,0.26,Active
+P200632,Dress Eco 632,Fashion,Dress,679.58,0.285,Active
+P200633,Smartwatch Eco 633,Electronics,Smartwatch,39002.87,0.169,Active
+P200634,Jeans Plus 634,Fashion,Jeans,1354.39,0.368,Active
+P200635,Doll Max 635,Toys,Doll,4037.26,0.314,Active
+P200636,Hair Dryer Lite 636,Beauty,Hair Dryer,4827.75,0.33,Active
+P200637,Smartphone Pro 637,Electronics,Smartphone,28230.88,0.106,Active
+P200638,Chair Lite 638,Home & Kitchen,Chair,11612.48,0.402,Active
+P200639,Sunscreen Plus 639,Beauty,Sunscreen,4971.74,0.356,Active
+P200640,Jacket Plus 640,Fashion,Jacket,6216.56,0.291,Active
+P200641,Lamp Pro 641,Home & Kitchen,Lamp,9137.64,0.42,Active
+P200642,Camera Elite 642,Electronics,Camera,26982.71,0.132,Discontinued
+P200643,Exam Prep Max 643,Books,Exam Prep,459.55,0.218,Active
+P200644,Makeup Kit Elite 644,Beauty,Makeup Kit,4964.21,0.571,Active
+P200645,Mixer Lite 645,Home & Kitchen,Mixer,9079.7,0.233,Active
+P200646,Smartwatch Lite 646,Electronics,Smartwatch,13077.38,0.125,Active
+P200647,Handbag Max 647,Fashion,Handbag,4580.73,0.533,Active
+P200648,Snacks Pro 648,Grocery,Snacks,1956.97,0.095,Discontinued
+P200649,Laptop Pro 649,Electronics,Laptop,42774.38,0.099,Active
