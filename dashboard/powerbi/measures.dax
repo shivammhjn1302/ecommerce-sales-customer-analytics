@@ -1,0 +1,8 @@
+Total Revenue = SUM(orders_enriched[net_sales])
+Total Profit = SUM(orders_enriched[profit])
+Profit Margin = DIVIDE([Total Profit],[Total Revenue])
+Average Order Value = DIVIDE([Total Revenue], DISTINCTCOUNT(orders_enriched[order_id]))
+Return Rate = DIVIDE(CALCULATE(COUNTROWS(orders_enriched), orders_enriched[order_status] = "Returned"), COUNTROWS(orders_enriched))
+Shipping Delay % = AVERAGE(orders_enriched[shipping_delay_flag])
+Refund % = DIVIDE(SUM(orders_enriched[refund_amount]), [Total Revenue])
+Repeat Purchase Rate = DIVIDE(CALCULATE(DISTINCTCOUNT(orders_enriched[customer_id]), FILTER(VALUES(orders_enriched[customer_id]), CALCULATE(DISTINCTCOUNT(orders_enriched[order_id])) > 1)), DISTINCTCOUNT(orders_enriched[customer_id]))
