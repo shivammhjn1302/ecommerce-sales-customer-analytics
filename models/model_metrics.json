@@ -1,8 +1,7 @@
 {
-  "roc_auc": 0.9999999999999999,
+  "roc_auc": 0.7978391600047727,
   "positive_churn_rate": 0.5640203449800973,
   "features": [
-    "recency_days",
     "frequency",
     "monetary",
     "returns",
@@ -16,5 +15,6 @@
     "acquisition_channel_Organic Search",
     "acquisition_channel_Paid Search",
     "acquisition_channel_Social"
-  ]
+  ],
+  "note": "Model intentionally excludes recency_days to avoid target leakage; churn target is inactivity >120 days."
 }
