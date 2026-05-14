@@ -1,0 +1,9 @@
+{
+  "name": "ecommerce-sales-customer-analytics",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static Vercel deployment for the E-Commerce Sales & Customer Behavior Analytics dashboard.",
+  "scripts": {
+    "build": "echo 'Static dashboard ready in public/'"
+  }
+}
