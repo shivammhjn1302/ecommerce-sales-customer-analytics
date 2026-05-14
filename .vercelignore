@@ -1,6 +1,7 @@
 # Deploy only the static executive dashboard to Vercel.
 # The Streamlit/Python analytics app remains in the GitHub repo for local or Streamlit Cloud use.
 *
+!public
 !public/**
 !package.json
 !vercel.json
