@@ -1,5 +1,13 @@
 # E-Commerce Sales & Customer Behavior Analytics Platform
 
+> Premium retail analytics platform for revenue growth, customer intelligence, churn risk, product performance, cohort retention, and executive marketplace reporting.
+
+## Hero Section
+
+**Marketplace Intelligence for Revenue, Retention, and Product Decisions** — a recruiter-ready analytics engineering case study that transforms transactional, customer, product, seller, payment, and review data into measurable business decisions.
+
+## Project Overview
+
 A portfolio-grade analytics engineering and BI project for an Amazon/Flipkart/Myntra-style e-commerce business. It combines synthetic transactional data, SQL analytics, machine learning, Streamlit BI, and dashboard design assets.
 
 ![Dashboard](visuals/dashboard_overview.svg)
@@ -95,6 +103,21 @@ See [`reports/business_insights.md`](reports/business_insights.md). Key examples
 - High-return categories create measurable profit leakage
 - Repeat customers have materially higher average order value than one-time customers
 
+## Screenshots
+
+![Dashboard](visuals/dashboard_overview.svg)
+![Customer Segments](visuals/customer_segments.svg)
+![Forecast](visuals/forecast.svg)
+
+## Installation Guide
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+streamlit run streamlit_app/app.py
+```
+
 ## Run Locally
 
 ```bash
@@ -103,6 +126,19 @@ source .venv/bin/activate
 pip install -r requirements.txt
 streamlit run streamlit_app/app.py
 ```
+
+## Deployment Guide
+
+- Deploy the static executive dashboard from `public/index.html` on Vercel.
+- Run the Streamlit app locally or deploy separately on Streamlit Community Cloud.
+- Keep processed CSV marts in `data/processed/` as the stable semantic layer for BI tools.
+
+## Performance Notes
+
+- Static dashboard path gives recruiters a fast zero-backend preview.
+- Processed marts keep dashboard reads lightweight and repeatable.
+- ML artifacts are stored in `models/` so modeling outputs can be inspected without rerunning the full pipeline.
+- BI pages are separated by executive, customer, product, marketing, and operations themes for maintainable storytelling.
 
 ## SQL Analytics
 
@@ -121,3 +157,7 @@ Open [`sql/advanced_analytics_queries.sql`](sql/advanced_analytics_queries.sql) 
 - Add CI checks for data quality
 - Replace linear forecast with Prophet/XGBoost time-series model
 - Add user-based collaborative filtering for recommendations
+
+## Resume Value
+
+Demonstrates analytics engineering, customer analytics, SQL depth, ML segmentation, churn modeling, forecasting, BI storytelling, and executive dashboard packaging for Data Analyst, Product Analyst, BI Developer, and Analytics Engineering roles.
