@@ -1,4 +1,4 @@
-"""Build a self-contained cyberpunk Vercel dashboard from the analytics CSV outputs."""
+"""Build a self-contained old-money Vercel dashboard from the analytics CSV outputs."""
 from __future__ import annotations
 
 from pathlib import Path
@@ -129,7 +129,7 @@ def main() -> None:
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>E-Commerce Sales & Customer Behavior Analytics | Cyberpunk BI</title>
+  <title>E-Commerce Sales & Customer Behavior Analytics | Old-Money BI</title>
   <meta name="description" content="Portfolio-grade e-commerce analytics platform with sales KPIs, customer segmentation, forecasting, churn prediction, SQL, and BI dashboard assets." />
   <style>
     :root {{ --bg:#05010d; --panel:#0d1022ee; --panel2:#121735; --cyan:#00f5ff; --pink:#ff2bd6; --lime:#9dff00; --amber:#ffd166; --text:#f4f7ff; --muted:#a7b1d8; --line:#29305f; }}
@@ -167,7 +167,7 @@ def main() -> None:
     <section class="hero">
       <div class="eyebrow">Portfolio BI System • SQL + Python + ML + Vercel</div>
       <h1>E-Commerce Sales & Customer Behavior <span class="gradient">Analytics Platform</span></h1>
-      <p class="sub">A cyberpunk executive analytics command center for a marketplace business: 58K synthetic transactions, 12K customers, advanced SQL, RFM, K-Means segmentation, churn prediction, forecasting assets, and BI-ready KPI layers.</p>
+      <p class="sub">A old-money executive analytics boardroom for a marketplace business: 58K synthetic transactions, 12K customers, advanced SQL, RFM, K-Means segmentation, churn prediction, forecasting assets, and BI-ready KPI layers.</p>
       <div class="chips"><span class="chip">Executive Summary</span><span class="chip">Sales Analytics</span><span class="chip">Customer Segmentation</span><span class="chip">Product Insights</span><span class="chip">Marketing Performance</span><span class="chip">Operational Analytics</span></div>
     </section>
 
@@ -195,7 +195,7 @@ def main() -> None:
         <div class="insight"><strong>Product strategy:</strong> electronics and fashion-style categories need separate return-rate playbooks because refund behavior varies by category.</div>
       </div></div>
     </section>
-    <div class="footer">Built from Python-generated synthetic data • 35 advanced SQL queries • Streamlit app in repo • Static cyberpunk dashboard deployed on Vercel</div>
+    <div class="footer">Built from Python-generated synthetic data • 35 advanced SQL queries • Streamlit app in repo • Static old-money dashboard deployed on Vercel</div>
   </main>
 </body>
 </html>"""
