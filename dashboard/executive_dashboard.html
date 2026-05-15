@@ -3,11 +3,38 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>E-Commerce Sales & Customer Behavior Analytics | Boardroom BI</title>
+  <title>E-Commerce Sales & Customer Behavior Analytics | Old-Money BI</title>
   <meta name="description" content="Portfolio-grade e-commerce analytics platform with sales KPIs, customer segmentation, forecasting, churn prediction, SQL, and BI dashboard assets." />
   <style>
-:root{--bg:#160d07;--walnut:#2a170c;--leather:#4a2d1a;--brass:#c8a45d;--brass2:#e7d3a1;--ivory:#f7f0df;--parchment:#eadfca;--muted:#b9a98d;--green:#1f4d36;--claret:#6d2b21;--line:rgba(200,164,93,.30)}*{box-sizing:border-box}body{margin:0;color:var(--ivory);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial;background:radial-gradient(circle at 16% 6%,rgba(200,164,93,.18),transparent 30%),radial-gradient(circle at 86% 5%,rgba(31,77,54,.22),transparent 30%),linear-gradient(115deg,rgba(255,255,255,.035) 0 1px,transparent 1px 28px),linear-gradient(90deg,#130b06,#2a170c 34%,#160d07 72%,#090603);min-height:100vh}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.3;background:repeating-linear-gradient(92deg,rgba(255,255,255,.035) 0 1px,transparent 1px 18px),repeating-linear-gradient(0deg,rgba(0,0,0,.16) 0 2px,transparent 2px 9px);mix-blend-mode:soft-light}.wrap{width:min(1440px,94vw);margin:0 auto;padding:34px 0 70px;position:relative}.hero{padding:36px;border:1px solid var(--line);border-radius:30px;background:linear-gradient(145deg,rgba(255,255,255,.08),transparent 30%),linear-gradient(180deg,rgba(58,36,21,.88),rgba(22,13,7,.80));box-shadow:0 28px 90px rgba(8,4,1,.48),inset 0 1px 0 rgba(255,255,255,.08);overflow:hidden;position:relative}.hero:after{content:"";position:absolute;width:520px;height:520px;right:-210px;top:-230px;background:radial-gradient(circle,rgba(200,164,93,.22),transparent 58%)}.eyebrow{color:var(--brass2);letter-spacing:.22em;text-transform:uppercase;font-weight:900;font-size:12px}h1{font-family:Georgia,'Times New Roman',serif;font-size:clamp(38px,5.5vw,84px);margin:12px 0;line-height:.92;letter-spacing:-.035em}.grad,.gradient{background:linear-gradient(90deg,var(--brass2),var(--brass),#fff3c4);-webkit-background-clip:text;color:transparent}.sub,p{color:var(--parchment);max-width:980px;font-size:18px;line-height:1.58}.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.chip{border:1px solid rgba(200,164,93,.3);color:var(--ivory);padding:9px 13px;border-radius:999px;background:rgba(20,12,7,.44)}.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:18px}.card{grid-column:span 3;background:linear-gradient(145deg,rgba(255,255,255,.075),transparent 34%),linear-gradient(180deg,rgba(58,36,21,.9),rgba(20,12,7,.86));border:1px solid var(--line);border-radius:24px;padding:20px;box-shadow:0 20px 58px rgba(0,0,0,.38),inset 0 1px 0 rgba(255,255,255,.08)}.wide{grid-column:span 8}.side{grid-column:span 4}.half{grid-column:span 6}.full{grid-column:span 12}.label{color:var(--muted);font-size:13px;text-transform:uppercase;letter-spacing:.12em}.metric{font-size:clamp(27px,3vw,44px);font-weight:950;margin-top:8px;color:var(--brass2)}.red,.pink{color:var(--claret)}.cyan{color:var(--brass2)}.lime{color:var(--green)}h2{font-family:Georgia,'Times New Roman',serif;margin:0 0 14px;font-size:28px}h3{margin:14px 0 8px;color:var(--ivory)}svg{width:100%;height:auto}.chart-svg{width:100%;height:auto;min-height:220px}.axis{fill:var(--muted);font-size:12px}.bar,.bar-row{display:grid;grid-template-columns:170px 1fr 110px;gap:12px;align-items:center;margin:12px 0}.bar b,.bar-label{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;color:var(--ivory)}.bar span,.bar-track{height:12px;border-radius:99px;background:rgba(20,12,7,.58);border:1px solid rgba(200,164,93,.24);overflow:hidden}.bar i,.bar-track span{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,var(--brass),var(--green))!important}.bar em,.bar-value{font-style:normal;color:var(--brass2);font-weight:800;text-align:right}table{width:100%;border-collapse:collapse;overflow:hidden;border-radius:16px}th,td{padding:11px 12px;border-bottom:1px solid rgba(200,164,93,.18);text-align:left;font-size:13px}th{color:var(--brass2);background:rgba(20,12,7,.55);text-transform:uppercase;letter-spacing:.08em}td{color:var(--parchment)}.insights{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.insight{border-left:3px solid var(--brass);background:rgba(20,12,7,.48);padding:14px;border-radius:14px;color:var(--parchment)}.footer{color:var(--muted);text-align:center;margin-top:30px}@media(max-width:900px){.card,.wide,.side,.half{grid-column:span 12}.bar,.bar-row{grid-template-columns:1fr;gap:6px}.insights{grid-template-columns:1fr}}
-</style>
+    :root { --bg:#160d07; --panel:#3a2415ee; --panel2:#3a2415; --brass:#c8a45d; --copper:#8a6534; --green:#1f4d36; --amber:#ffd166; --text:#f7f0df; --muted:#b9a98d; --line:rgba(200,164,93,.28); }
+    * { box-sizing:border-box }
+    body { margin:0; color:var(--text); font-family:Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial; background: radial-gradient(circle at 15% 10%, #31105e 0, transparent 28%), radial-gradient(circle at 85% 5%, #003f5c 0, transparent 30%), linear-gradient(135deg,#03020a 0%,#09031b 48%,#020918 100%); min-height:100vh; }
+    body:before { content:""; position:fixed; inset:0; pointer-events:none; opacity:.22; background-image:linear-gradient(rgba(0,245,255,.14) 1px, transparent 1px), linear-gradient(90deg, rgba(255,43,214,.12) 1px, transparent 1px); background-size:42px 42px; mask-image:linear-gradient(to bottom, black, transparent 78%); }
+    .wrap { width:min(1440px, 94vw); margin:0 auto; padding:34px 0 70px; position:relative; }
+    .hero { padding:34px; border:1px solid #3b2a7d; border-radius:28px; background:linear-gradient(135deg, rgba(15,18,46,.92), rgba(8,11,28,.72)); box-shadow:0 0 48px rgba(0,245,255,.14), inset 0 0 60px rgba(255,43,214,.06); overflow:hidden; position:relative; }
+    .hero:after { content:""; position:absolute; width:520px; height:520px; right:-210px; top:-230px; background:radial-gradient(circle, rgba(255,43,214,.33), transparent 58%); }
+    .eyebrow { color:var(--brass); letter-spacing:.22em; text-transform:uppercase; font-weight:800; font-size:12px; }
+    h1 { font-size:clamp(34px, 5vw, 78px); margin:10px 0; line-height:.95; text-shadow:0 0 22px rgba(0,245,255,.45); }
+    .gradient { background:linear-gradient(90deg,var(--brass),var(--copper),var(--green)); -webkit-background-clip:text; color:transparent; }
+    .sub { color:var(--muted); max-width:920px; font-size:18px; line-height:1.55; }
+    .chips { display:flex; flex-wrap:wrap; gap:10px; margin-top:22px; }
+    .chip { border:1px solid #3850a5; color:#dfe7ff; padding:9px 13px; border-radius:999px; background:#0b1234cc; box-shadow:0 0 18px rgba(0,245,255,.08); }
+    .grid { display:grid; grid-template-columns:repeat(12,1fr); gap:18px; margin-top:18px; }
+    .card { grid-column:span 3; background:linear-gradient(180deg, rgba(18,23,53,.92), rgba(8,10,26,.9)); border:1px solid var(--line); border-radius:22px; padding:20px; box-shadow:0 18px 50px rgba(0,0,0,.34), 0 0 26px rgba(0,245,255,.06); }
+    .wide { grid-column:span 8 } .side { grid-column:span 4 } .half { grid-column:span 6 } .full { grid-column:span 12 }
+    .label { color:var(--muted); font-size:13px; text-transform:uppercase; letter-spacing:.12em; }
+    .metric { font-size:clamp(26px,3vw,42px); font-weight:900; margin-top:8px; color:#fff; }
+    .metric.brass { color:var(--brass); text-shadow:0 0 20px rgba(0,245,255,.45) } .metric.copper { color:var(--copper); text-shadow:0 0 20px rgba(255,43,214,.35) } .metric.green { color:var(--green); text-shadow:0 0 20px rgba(157,255,0,.35) }
+    h2 { margin:0 0 14px; font-size:24px } h3 { margin:14px 0 8px; color:#dfe7ff }
+    .chart-svg { width:100%; height:auto; min-height:220px; } .axis { fill:#8f9bc7; font-size:12px; }
+    .bar-row { display:grid; grid-template-columns:150px 1fr 96px; gap:12px; align-items:center; margin:12px 0; }
+    .bar-label { color:#e9edff; white-space:nowrap; overflow:hidden; text-overflow:ellipsis } .bar-value { color:var(--brass); text-align:right; font-weight:800; font-size:13px }
+    .bar-track { height:12px; border-radius:999px; background:#080d25; overflow:hidden; border:1px solid #24305e; } .bar-track span { display:block; height:100%; border-radius:999px; box-shadow:0 0 18px currentColor; }
+    table { width:100%; border-collapse:collapse; overflow:hidden; border-radius:16px; } th,td { padding:11px 12px; border-bottom:1px solid #242b57; text-align:left; font-size:13px } th { color:var(--brass); background:#0a1131; text-transform:uppercase; letter-spacing:.08em } td { color:#e5e9ff }
+    .insights { display:grid; grid-template-columns:repeat(2,1fr); gap:14px; } .insight { border-left:3px solid var(--copper); background:#090f2c; padding:14px; border-radius:14px; color:#dfe7ff; }
+    .footer { color:#8d98c9; text-align:center; margin-top:30px; }
+    @media(max-width:900px) { .card,.wide,.side,.half { grid-column:span 12 } .bar-row { grid-template-columns:1fr; gap:6px } .insights { grid-template-columns:1fr } }
+  </style>
 </head>
 <body>
   <main class="wrap">
@@ -19,102 +46,102 @@
     </section>
 
     <section class="grid">
-      <div class="card"><div class="label">Total Revenue</div><div class="metric cyan">₹120.16 Cr</div></div>
-      <div class="card"><div class="label">Profit Margin</div><div class="metric lime">18.0%</div></div>
-      <div class="card"><div class="label">Average Order Value</div><div class="metric pink">₹21,025</div></div>
+      <div class="card"><div class="label">Total Revenue</div><div class="metric brass">₹120.16 Cr</div></div>
+      <div class="card"><div class="label">Profit Margin</div><div class="metric green">18.0%</div></div>
+      <div class="card"><div class="label">Average Order Value</div><div class="metric copper">₹21,025</div></div>
       <div class="card"><div class="label">Transactions</div><div class="metric">58,000</div></div>
 
       <div class="card wide"><h2>Revenue Pulse</h2>
     <svg viewBox="0 0 920 260" class="chart-svg" role="img" aria-label="Revenue trend chart">
       <defs>
-        <linearGradient id="lineGlow" x1="0" x2="0" y1="0" y2="1">
+        <linearGradient id="linePolish" x1="0" x2="0" y1="0" y2="1">
           <stop offset="0%" stop-color="#c8a45d" stop-opacity="0.38"/>
-          <stop offset="100%" stop-color="#e7d3a1" stop-opacity="0.02"/>
+          <stop offset="100%" stop-color="#8a6534" stop-opacity="0.02"/>
         </linearGradient>
-        <filter id="glow"><feGaussianBlur stdDeviation="3" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+        <filter id="polish"><feGaussianBlur stdDeviation="3" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
       </defs>
-      <polygon points="28,232 28.0,190.4 52.7,232.0 77.4,212.9 102.1,219.2 126.7,119.1 151.4,154.1 176.1,214.2 200.8,207.9 225.5,217.2 250.2,81.5 274.9,91.6 299.5,135.2 324.2,207.1 348.9,215.8 373.6,208.5 398.3,207.0 423.0,115.3 447.7,142.3 472.3,212.7 497.0,204.8 521.7,217.5 546.4,46.1 571.1,50.9 595.8,121.2 620.5,219.2 645.1,216.0 669.8,222.8 694.5,205.0 719.2,102.1 743.9,120.9 768.6,212.4 793.3,214.8 817.9,215.9 842.6,38.8 867.3,28.0 892.0,120.6 892,232" fill="url(#lineGlow)"/>
-      <polyline points="28.0,190.4 52.7,232.0 77.4,212.9 102.1,219.2 126.7,119.1 151.4,154.1 176.1,214.2 200.8,207.9 225.5,217.2 250.2,81.5 274.9,91.6 299.5,135.2 324.2,207.1 348.9,215.8 373.6,208.5 398.3,207.0 423.0,115.3 447.7,142.3 472.3,212.7 497.0,204.8 521.7,217.5 546.4,46.1 571.1,50.9 595.8,121.2 620.5,219.2 645.1,216.0 669.8,222.8 694.5,205.0 719.2,102.1 743.9,120.9 768.6,212.4 793.3,214.8 817.9,215.9 842.6,38.8 867.3,28.0 892.0,120.6" fill="none" stroke="#c8a45d" stroke-width="4" filter="url(#glow)" stroke-linecap="round"/>
+      <polygon points="28,232 28.0,190.4 52.7,232.0 77.4,212.9 102.1,219.2 126.7,119.1 151.4,154.1 176.1,214.2 200.8,207.9 225.5,217.2 250.2,81.5 274.9,91.6 299.5,135.2 324.2,207.1 348.9,215.8 373.6,208.5 398.3,207.0 423.0,115.3 447.7,142.3 472.3,212.7 497.0,204.8 521.7,217.5 546.4,46.1 571.1,50.9 595.8,121.2 620.5,219.2 645.1,216.0 669.8,222.8 694.5,205.0 719.2,102.1 743.9,120.9 768.6,212.4 793.3,214.8 817.9,215.9 842.6,38.8 867.3,28.0 892.0,120.6 892,232" fill="url(#linePolish)"/>
+      <polyline points="28.0,190.4 52.7,232.0 77.4,212.9 102.1,219.2 126.7,119.1 151.4,154.1 176.1,214.2 200.8,207.9 225.5,217.2 250.2,81.5 274.9,91.6 299.5,135.2 324.2,207.1 348.9,215.8 373.6,208.5 398.3,207.0 423.0,115.3 447.7,142.3 472.3,212.7 497.0,204.8 521.7,217.5 546.4,46.1 571.1,50.9 595.8,121.2 620.5,219.2 645.1,216.0 669.8,222.8 694.5,205.0 719.2,102.1 743.9,120.9 768.6,212.4 793.3,214.8 817.9,215.9 842.6,38.8 867.3,28.0 892.0,120.6" fill="none" stroke="#c8a45d" stroke-width="4" filter="url(#polish)" stroke-linecap="round"/>
       <text x="28.0" y="255" text-anchor="middle" class="axis">Jan 23</text><text x="250.2" y="255" text-anchor="middle" class="axis">Oct 23</text><text x="472.3" y="255" text-anchor="middle" class="axis">Jul 24</text><text x="694.5" y="255" text-anchor="middle" class="axis">Apr 25</text><text x="892.0" y="255" text-anchor="middle" class="axis">Dec 25</text>
     </svg></div>
-      <div class="card side"><h2>Operating KPIs</h2><div class="label">Refund %</div><div class="metric pink">8.0%</div><div class="label">Shipping Delay %</div><div class="metric cyan">22.0%</div><div class="label">Repeat Purchase Rate</div><div class="metric lime">70.8%</div><div class="label">Churn Model ROC-AUC</div><div class="metric">0.80</div></div>
+      <div class="card side"><h2>Operating KPIs</h2><div class="label">Refund %</div><div class="metric copper">8.0%</div><div class="label">Shipping Delay %</div><div class="metric brass">22.0%</div><div class="label">Repeat Purchase Rate</div><div class="metric green">70.8%</div><div class="label">Churn Model ROC-AUC</div><div class="metric">0.80</div></div>
 
       <div class="card half"><h2>Category Revenue</h2>
         <div class="bar-row">
           <div class="bar-label">Electronics</div>
-          <div class="bar-track"><span style="width:100.0%; background:linear-gradient(90deg,#c8a45d,#00a7ff)"></span></div>
+          <div class="bar-track"><span style="width:100.0%; background:linear-gradient(90deg,#c8a45d,#b1843f)"></span></div>
           <div class="bar-value">₹91.40 Cr</div>
         </div>
 
         <div class="bar-row">
           <div class="bar-label">Home &amp; Kitchen</div>
-          <div class="bar-track"><span style="width:23.5%; background:linear-gradient(90deg,#c8a45d,#00a7ff)"></span></div>
+          <div class="bar-track"><span style="width:23.5%; background:linear-gradient(90deg,#c8a45d,#b1843f)"></span></div>
           <div class="bar-value">₹21.47 Cr</div>
         </div>
 
         <div class="bar-row">
           <div class="bar-label">Fashion</div>
-          <div class="bar-track"><span style="width:4.5%; background:linear-gradient(90deg,#c8a45d,#00a7ff)"></span></div>
+          <div class="bar-track"><span style="width:4.5%; background:linear-gradient(90deg,#c8a45d,#b1843f)"></span></div>
           <div class="bar-value">₹4.11 Cr</div>
         </div>
 
         <div class="bar-row">
           <div class="bar-label">Sports</div>
-          <div class="bar-track"><span style="width:4.0%; background:linear-gradient(90deg,#c8a45d,#00a7ff)"></span></div>
+          <div class="bar-track"><span style="width:4.0%; background:linear-gradient(90deg,#c8a45d,#b1843f)"></span></div>
           <div class="bar-value">₹0.93 Cr</div>
         </div>
 
         <div class="bar-row">
           <div class="bar-label">Toys</div>
-          <div class="bar-track"><span style="width:4.0%; background:linear-gradient(90deg,#c8a45d,#00a7ff)"></span></div>
+          <div class="bar-track"><span style="width:4.0%; background:linear-gradient(90deg,#c8a45d,#b1843f)"></span></div>
           <div class="bar-value">₹0.74 Cr</div>
         </div>
 
         <div class="bar-row">
           <div class="bar-label">Beauty</div>
-          <div class="bar-track"><span style="width:4.0%; background:linear-gradient(90deg,#c8a45d,#00a7ff)"></span></div>
+          <div class="bar-track"><span style="width:4.0%; background:linear-gradient(90deg,#c8a45d,#b1843f)"></span></div>
           <div class="bar-value">₹0.72 Cr</div>
         </div>
 
         <div class="bar-row">
           <div class="bar-label">Grocery</div>
-          <div class="bar-track"><span style="width:4.0%; background:linear-gradient(90deg,#c8a45d,#00a7ff)"></span></div>
+          <div class="bar-track"><span style="width:4.0%; background:linear-gradient(90deg,#c8a45d,#b1843f)"></span></div>
           <div class="bar-value">₹0.40 Cr</div>
         </div>
 
         <div class="bar-row">
           <div class="bar-label">Books</div>
-          <div class="bar-track"><span style="width:4.0%; background:linear-gradient(90deg,#c8a45d,#00a7ff)"></span></div>
+          <div class="bar-track"><span style="width:4.0%; background:linear-gradient(90deg,#c8a45d,#b1843f)"></span></div>
           <div class="bar-value">₹0.38 Cr</div>
         </div></div>
       <div class="card half"><h2>Regional Heatmap Proxy</h2>
         <div class="bar-row">
           <div class="bar-label">South</div>
-          <div class="bar-track"><span style="width:100.0%; background:linear-gradient(90deg,#e7d3a1,#8a6534)"></span></div>
+          <div class="bar-track"><span style="width:100.0%; background:linear-gradient(90deg,#8a6534,#1f4d36)"></span></div>
           <div class="bar-value">₹40.15 Cr</div>
         </div>
 
         <div class="bar-row">
           <div class="bar-label">West</div>
-          <div class="bar-track"><span style="width:91.7%; background:linear-gradient(90deg,#e7d3a1,#8a6534)"></span></div>
+          <div class="bar-track"><span style="width:91.7%; background:linear-gradient(90deg,#8a6534,#1f4d36)"></span></div>
           <div class="bar-value">₹36.80 Cr</div>
         </div>
 
         <div class="bar-row">
           <div class="bar-label">North</div>
-          <div class="bar-track"><span style="width:77.2%; background:linear-gradient(90deg,#e7d3a1,#8a6534)"></span></div>
+          <div class="bar-track"><span style="width:77.2%; background:linear-gradient(90deg,#8a6534,#1f4d36)"></span></div>
           <div class="bar-value">₹30.99 Cr</div>
         </div>
 
         <div class="bar-row">
           <div class="bar-label">Central</div>
-          <div class="bar-track"><span style="width:16.0%; background:linear-gradient(90deg,#e7d3a1,#8a6534)"></span></div>
+          <div class="bar-track"><span style="width:16.0%; background:linear-gradient(90deg,#8a6534,#1f4d36)"></span></div>
           <div class="bar-value">₹6.41 Cr</div>
         </div>
 
         <div class="bar-row">
           <div class="bar-label">East</div>
-          <div class="bar-track"><span style="width:14.5%; background:linear-gradient(90deg,#e7d3a1,#8a6534)"></span></div>
+          <div class="bar-track"><span style="width:14.5%; background:linear-gradient(90deg,#8a6534,#1f4d36)"></span></div>
           <div class="bar-value">₹5.81 Cr</div>
         </div></div>
 

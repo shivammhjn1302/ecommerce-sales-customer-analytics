@@ -24,7 +24,7 @@ def pct(value: float) -> str:
     return f"{value * 100:.1f}%"
 
 
-def svg_line(values, labels, width=920, height=260, color="#00f5ff") -> str:
+def svg_line(values, labels, width=920, height=260, color="#c8a45d") -> str:
     vals = list(map(float, values))
     mn, mx = min(vals), max(vals)
     pad = 28
@@ -43,19 +43,19 @@ def svg_line(values, labels, width=920, height=260, color="#00f5ff") -> str:
     return f"""
     <svg viewBox="0 0 {width} {height}" class="chart-svg" role="img" aria-label="Revenue trend chart">
       <defs>
-        <linearGradient id="lineGlow" x1="0" x2="0" y1="0" y2="1">
+        <linearGradient id="linePolish" x1="0" x2="0" y1="0" y2="1">
           <stop offset="0%" stop-color="{color}" stop-opacity="0.38"/>
-          <stop offset="100%" stop-color="#ff2bd6" stop-opacity="0.02"/>
+          <stop offset="100%" stop-color="#8a6534" stop-opacity="0.02"/>
         </linearGradient>
-        <filter id="glow"><feGaussianBlur stdDeviation="3" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+        <filter id="polish"><feGaussianBlur stdDeviation="3" result="coloredBlur"/><feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
       </defs>
-      <polygon points="{area}" fill="url(#lineGlow)"/>
-      <polyline points="{poly}" fill="none" stroke="{color}" stroke-width="4" filter="url(#glow)" stroke-linecap="round"/>
+      <polygon points="{area}" fill="url(#linePolish)"/>
+      <polyline points="{poly}" fill="none" stroke="{color}" stroke-width="4" filter="url(#polish)" stroke-linecap="round"/>
       {''.join(ticks)}
     </svg>"""
 
 
-def bars(rows, label_key, value_key, max_items=8, color="#ff2bd6") -> str:
+def bars(rows, label_key, value_key, max_items=8, color="#8a6534") -> str:
     rows = rows[:max_items]
     max_value = max(float(r[value_key]) for r in rows) if rows else 1
     out = []
@@ -132,16 +132,16 @@ def main() -> None:
   <title>E-Commerce Sales & Customer Behavior Analytics | Old-Money BI</title>
   <meta name="description" content="Portfolio-grade e-commerce analytics platform with sales KPIs, customer segmentation, forecasting, churn prediction, SQL, and BI dashboard assets." />
   <style>
-    :root {{ --bg:#05010d; --panel:#0d1022ee; --panel2:#121735; --cyan:#00f5ff; --pink:#ff2bd6; --lime:#9dff00; --amber:#ffd166; --text:#f4f7ff; --muted:#a7b1d8; --line:#29305f; }}
+    :root {{ --bg:#160d07; --panel:#3a2415ee; --panel2:#3a2415; --brass:#c8a45d; --copper:#8a6534; --green:#1f4d36; --amber:#ffd166; --text:#f7f0df; --muted:#b9a98d; --line:rgba(200,164,93,.28); }}
     * {{ box-sizing:border-box }}
     body {{ margin:0; color:var(--text); font-family:Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial; background: radial-gradient(circle at 15% 10%, #31105e 0, transparent 28%), radial-gradient(circle at 85% 5%, #003f5c 0, transparent 30%), linear-gradient(135deg,#03020a 0%,#09031b 48%,#020918 100%); min-height:100vh; }}
     body:before {{ content:""; position:fixed; inset:0; pointer-events:none; opacity:.22; background-image:linear-gradient(rgba(0,245,255,.14) 1px, transparent 1px), linear-gradient(90deg, rgba(255,43,214,.12) 1px, transparent 1px); background-size:42px 42px; mask-image:linear-gradient(to bottom, black, transparent 78%); }}
     .wrap {{ width:min(1440px, 94vw); margin:0 auto; padding:34px 0 70px; position:relative; }}
     .hero {{ padding:34px; border:1px solid #3b2a7d; border-radius:28px; background:linear-gradient(135deg, rgba(15,18,46,.92), rgba(8,11,28,.72)); box-shadow:0 0 48px rgba(0,245,255,.14), inset 0 0 60px rgba(255,43,214,.06); overflow:hidden; position:relative; }}
     .hero:after {{ content:""; position:absolute; width:520px; height:520px; right:-210px; top:-230px; background:radial-gradient(circle, rgba(255,43,214,.33), transparent 58%); }}
-    .eyebrow {{ color:var(--cyan); letter-spacing:.22em; text-transform:uppercase; font-weight:800; font-size:12px; }}
+    .eyebrow {{ color:var(--brass); letter-spacing:.22em; text-transform:uppercase; font-weight:800; font-size:12px; }}
     h1 {{ font-size:clamp(34px, 5vw, 78px); margin:10px 0; line-height:.95; text-shadow:0 0 22px rgba(0,245,255,.45); }}
-    .gradient {{ background:linear-gradient(90deg,var(--cyan),var(--pink),var(--lime)); -webkit-background-clip:text; color:transparent; }}
+    .gradient {{ background:linear-gradient(90deg,var(--brass),var(--copper),var(--green)); -webkit-background-clip:text; color:transparent; }}
     .sub {{ color:var(--muted); max-width:920px; font-size:18px; line-height:1.55; }}
     .chips {{ display:flex; flex-wrap:wrap; gap:10px; margin-top:22px; }}
     .chip {{ border:1px solid #3850a5; color:#dfe7ff; padding:9px 13px; border-radius:999px; background:#0b1234cc; box-shadow:0 0 18px rgba(0,245,255,.08); }}
@@ -150,14 +150,14 @@ def main() -> None:
     .wide {{ grid-column:span 8 }} .side {{ grid-column:span 4 }} .half {{ grid-column:span 6 }} .full {{ grid-column:span 12 }}
     .label {{ color:var(--muted); font-size:13px; text-transform:uppercase; letter-spacing:.12em; }}
     .metric {{ font-size:clamp(26px,3vw,42px); font-weight:900; margin-top:8px; color:#fff; }}
-    .metric.cyan {{ color:var(--cyan); text-shadow:0 0 20px rgba(0,245,255,.45) }} .metric.pink {{ color:var(--pink); text-shadow:0 0 20px rgba(255,43,214,.35) }} .metric.lime {{ color:var(--lime); text-shadow:0 0 20px rgba(157,255,0,.35) }}
+    .metric.brass {{ color:var(--brass); text-shadow:0 0 20px rgba(0,245,255,.45) }} .metric.copper {{ color:var(--copper); text-shadow:0 0 20px rgba(255,43,214,.35) }} .metric.green {{ color:var(--green); text-shadow:0 0 20px rgba(157,255,0,.35) }}
     h2 {{ margin:0 0 14px; font-size:24px }} h3 {{ margin:14px 0 8px; color:#dfe7ff }}
     .chart-svg {{ width:100%; height:auto; min-height:220px; }} .axis {{ fill:#8f9bc7; font-size:12px; }}
     .bar-row {{ display:grid; grid-template-columns:150px 1fr 96px; gap:12px; align-items:center; margin:12px 0; }}
-    .bar-label {{ color:#e9edff; white-space:nowrap; overflow:hidden; text-overflow:ellipsis }} .bar-value {{ color:var(--cyan); text-align:right; font-weight:800; font-size:13px }}
+    .bar-label {{ color:#e9edff; white-space:nowrap; overflow:hidden; text-overflow:ellipsis }} .bar-value {{ color:var(--brass); text-align:right; font-weight:800; font-size:13px }}
     .bar-track {{ height:12px; border-radius:999px; background:#080d25; overflow:hidden; border:1px solid #24305e; }} .bar-track span {{ display:block; height:100%; border-radius:999px; box-shadow:0 0 18px currentColor; }}
-    table {{ width:100%; border-collapse:collapse; overflow:hidden; border-radius:16px; }} th,td {{ padding:11px 12px; border-bottom:1px solid #242b57; text-align:left; font-size:13px }} th {{ color:var(--cyan); background:#0a1131; text-transform:uppercase; letter-spacing:.08em }} td {{ color:#e5e9ff }}
-    .insights {{ display:grid; grid-template-columns:repeat(2,1fr); gap:14px; }} .insight {{ border-left:3px solid var(--pink); background:#090f2c; padding:14px; border-radius:14px; color:#dfe7ff; }}
+    table {{ width:100%; border-collapse:collapse; overflow:hidden; border-radius:16px; }} th,td {{ padding:11px 12px; border-bottom:1px solid #242b57; text-align:left; font-size:13px }} th {{ color:var(--brass); background:#0a1131; text-transform:uppercase; letter-spacing:.08em }} td {{ color:#e5e9ff }}
+    .insights {{ display:grid; grid-template-columns:repeat(2,1fr); gap:14px; }} .insight {{ border-left:3px solid var(--copper); background:#090f2c; padding:14px; border-radius:14px; color:#dfe7ff; }}
     .footer {{ color:#8d98c9; text-align:center; margin-top:30px; }}
     @media(max-width:900px) {{ .card,.wide,.side,.half {{ grid-column:span 12 }} .bar-row {{ grid-template-columns:1fr; gap:6px }} .insights {{ grid-template-columns:1fr }} }}
   </style>
@@ -172,16 +172,16 @@ def main() -> None:
     </section>
 
     <section class="grid">
-      <div class="card"><div class="label">Total Revenue</div><div class="metric cyan">{money_cr(revenue)}</div></div>
-      <div class="card"><div class="label">Profit Margin</div><div class="metric lime">{pct(margin)}</div></div>
-      <div class="card"><div class="label">Average Order Value</div><div class="metric pink">₹{aov:,.0f}</div></div>
+      <div class="card"><div class="label">Total Revenue</div><div class="metric brass">{money_cr(revenue)}</div></div>
+      <div class="card"><div class="label">Profit Margin</div><div class="metric green">{pct(margin)}</div></div>
+      <div class="card"><div class="label">Average Order Value</div><div class="metric copper">₹{aov:,.0f}</div></div>
       <div class="card"><div class="label">Transactions</div><div class="metric">{len(orders):,}</div></div>
 
       <div class="card wide"><h2>Revenue Pulse</h2>{line_chart}</div>
-      <div class="card side"><h2>Operating KPIs</h2><div class="label">Refund %</div><div class="metric pink">{pct(refund_rate)}</div><div class="label">Shipping Delay %</div><div class="metric cyan">{pct(delay_rate)}</div><div class="label">Repeat Purchase Rate</div><div class="metric lime">{pct(repeat_rate)}</div><div class="label">Churn Model ROC-AUC</div><div class="metric">{metrics['roc_auc']:.2f}</div></div>
+      <div class="card side"><h2>Operating KPIs</h2><div class="label">Refund %</div><div class="metric copper">{pct(refund_rate)}</div><div class="label">Shipping Delay %</div><div class="metric brass">{pct(delay_rate)}</div><div class="label">Repeat Purchase Rate</div><div class="metric green">{pct(repeat_rate)}</div><div class="label">Churn Model ROC-AUC</div><div class="metric">{metrics['roc_auc']:.2f}</div></div>
 
-      <div class="card half"><h2>Category Revenue</h2>{bars(cat.to_dict('records'), 'category', 'revenue', 8, 'linear-gradient(90deg,#00f5ff,#00a7ff)')}</div>
-      <div class="card half"><h2>Regional Heatmap Proxy</h2>{bars(region.to_dict('records'), 'region', 'revenue', 8, 'linear-gradient(90deg,#ff2bd6,#7c3cff)')}</div>
+      <div class="card half"><h2>Category Revenue</h2>{bars(cat.to_dict('records'), 'category', 'revenue', 8, 'linear-gradient(90deg,#c8a45d,#b1843f)')}</div>
+      <div class="card half"><h2>Regional Heatmap Proxy</h2>{bars(region.to_dict('records'), 'region', 'revenue', 8, 'linear-gradient(90deg,#8a6534,#1f4d36)')}</div>
 
       <div class="card half"><h2>Customer Segments</h2>{table_html(seg_summary, ['rfm_segment','customers','revenue','avg_frequency'], 8)}</div>
       <div class="card half"><h2>Campaign Performance</h2>{table_html(campaigns, ['campaign','orders','revenue','margin'], 8)}</div>
