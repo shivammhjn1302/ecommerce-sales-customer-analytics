@@ -3,45 +3,19 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>E-Commerce Sales & Customer Behavior Analytics | Old-Money BI</title>
+  <title>E-Commerce Sales & Customer Behavior Analytics | Professional BI</title>
   <meta name="description" content="Portfolio-grade e-commerce analytics platform with sales KPIs, customer segmentation, forecasting, churn prediction, SQL, and BI dashboard assets." />
   <style>
-    :root { --bg:#160d07; --panel:#3a2415ee; --panel2:#3a2415; --brass:#c8a45d; --copper:#8a6534; --green:#1f4d36; --amber:#ffd166; --text:#f7f0df; --muted:#b9a98d; --line:rgba(200,164,93,.28); }
-    * { box-sizing:border-box }
-    body { margin:0; color:var(--text); font-family:Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, Arial; background: radial-gradient(circle at 15% 10%, #31105e 0, transparent 28%), radial-gradient(circle at 85% 5%, #003f5c 0, transparent 30%), linear-gradient(135deg,#03020a 0%,#09031b 48%,#020918 100%); min-height:100vh; }
-    body:before { content:""; position:fixed; inset:0; pointer-events:none; opacity:.22; background-image:linear-gradient(rgba(0,245,255,.14) 1px, transparent 1px), linear-gradient(90deg, rgba(255,43,214,.12) 1px, transparent 1px); background-size:42px 42px; mask-image:linear-gradient(to bottom, black, transparent 78%); }
-    .wrap { width:min(1440px, 94vw); margin:0 auto; padding:34px 0 70px; position:relative; }
-    .hero { padding:34px; border:1px solid #3b2a7d; border-radius:28px; background:linear-gradient(135deg, rgba(15,18,46,.92), rgba(8,11,28,.72)); box-shadow:0 0 48px rgba(0,245,255,.14), inset 0 0 60px rgba(255,43,214,.06); overflow:hidden; position:relative; }
-    .hero:after { content:""; position:absolute; width:520px; height:520px; right:-210px; top:-230px; background:radial-gradient(circle, rgba(255,43,214,.33), transparent 58%); }
-    .eyebrow { color:var(--brass); letter-spacing:.22em; text-transform:uppercase; font-weight:800; font-size:12px; }
-    h1 { font-size:clamp(34px, 5vw, 78px); margin:10px 0; line-height:.95; text-shadow:0 0 22px rgba(0,245,255,.45); }
-    .gradient { background:linear-gradient(90deg,var(--brass),var(--copper),var(--green)); -webkit-background-clip:text; color:transparent; }
-    .sub { color:var(--muted); max-width:920px; font-size:18px; line-height:1.55; }
-    .chips { display:flex; flex-wrap:wrap; gap:10px; margin-top:22px; }
-    .chip { border:1px solid #3850a5; color:#dfe7ff; padding:9px 13px; border-radius:999px; background:#0b1234cc; box-shadow:0 0 18px rgba(0,245,255,.08); }
-    .grid { display:grid; grid-template-columns:repeat(12,1fr); gap:18px; margin-top:18px; }
-    .card { grid-column:span 3; background:linear-gradient(180deg, rgba(18,23,53,.92), rgba(8,10,26,.9)); border:1px solid var(--line); border-radius:22px; padding:20px; box-shadow:0 18px 50px rgba(0,0,0,.34), 0 0 26px rgba(0,245,255,.06); }
-    .wide { grid-column:span 8 } .side { grid-column:span 4 } .half { grid-column:span 6 } .full { grid-column:span 12 }
-    .label { color:var(--muted); font-size:13px; text-transform:uppercase; letter-spacing:.12em; }
-    .metric { font-size:clamp(26px,3vw,42px); font-weight:900; margin-top:8px; color:#fff; }
-    .metric.brass { color:var(--brass); text-shadow:0 0 20px rgba(0,245,255,.45) } .metric.copper { color:var(--copper); text-shadow:0 0 20px rgba(255,43,214,.35) } .metric.green { color:var(--green); text-shadow:0 0 20px rgba(157,255,0,.35) }
-    h2 { margin:0 0 14px; font-size:24px } h3 { margin:14px 0 8px; color:#dfe7ff }
-    .chart-svg { width:100%; height:auto; min-height:220px; } .axis { fill:#8f9bc7; font-size:12px; }
-    .bar-row { display:grid; grid-template-columns:150px 1fr 96px; gap:12px; align-items:center; margin:12px 0; }
-    .bar-label { color:#e9edff; white-space:nowrap; overflow:hidden; text-overflow:ellipsis } .bar-value { color:var(--brass); text-align:right; font-weight:800; font-size:13px }
-    .bar-track { height:12px; border-radius:999px; background:#080d25; overflow:hidden; border:1px solid #24305e; } .bar-track span { display:block; height:100%; border-radius:999px; box-shadow:0 0 18px currentColor; }
-    table { width:100%; border-collapse:collapse; overflow:hidden; border-radius:16px; } th,td { padding:11px 12px; border-bottom:1px solid #242b57; text-align:left; font-size:13px } th { color:var(--brass); background:#0a1131; text-transform:uppercase; letter-spacing:.08em } td { color:#e5e9ff }
-    .insights { display:grid; grid-template-columns:repeat(2,1fr); gap:14px; } .insight { border-left:3px solid var(--copper); background:#090f2c; padding:14px; border-radius:14px; color:#dfe7ff; }
-    .footer { color:#8d98c9; text-align:center; margin-top:30px; }
-    @media(max-width:900px) { .card,.wide,.side,.half { grid-column:span 12 } .bar-row { grid-template-columns:1fr; gap:6px } .insights { grid-template-columns:1fr } }
-  </style>
+:root{--bg:#f5f7fb;--panel:rgba(255,255,255,.88);--panel2:#fff;--accent:#2f7d68;--accent2:#4f9b85;--sage:#6b8f71;--text:#16211d;--muted:#42544d;--soft:#71827b;--line:rgba(47,125,104,.16);--shadow:0 24px 70px rgba(33,56,48,.10)}
+*{box-sizing:border-box}body{margin:0;color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,Segoe UI,Arial;background:radial-gradient(circle at 12% 4%,rgba(47,125,104,.12),transparent 34%),radial-gradient(circle at 92% 0%,rgba(107,143,113,.10),transparent 32%),linear-gradient(180deg,#f8fafc 0%,#eef4f1 48%,#f7f9f6 100%);min-height:100vh}body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.45;background:linear-gradient(115deg,rgba(47,125,104,.06) 0 1px,transparent 1px 42px)}.wrap{width:min(1440px,94vw);margin:0 auto;padding:34px 0 70px;position:relative}.hero{padding:34px;border:1px solid var(--line);border-radius:28px;background:linear-gradient(145deg,rgba(255,255,255,.94),rgba(255,255,255,.72));box-shadow:var(--shadow),inset 0 1px 0 rgba(255,255,255,.78);overflow:hidden;position:relative}.hero:after{content:"";position:absolute;width:520px;height:520px;right:-210px;top:-230px;background:radial-gradient(circle,rgba(47,125,104,.10),transparent 58%)}.eyebrow{color:var(--accent);letter-spacing:.18em;text-transform:uppercase;font-weight:900;font-size:12px}h1{font-size:clamp(34px,5vw,76px);margin:10px 0;line-height:.98;letter-spacing:-.045em}.gradient,.grad{background:linear-gradient(90deg,var(--accent),var(--sage));-webkit-background-clip:text;color:transparent}.sub,p{color:var(--muted);max-width:980px;font-size:18px;line-height:1.55}.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}.chip{border:1px solid var(--line);color:var(--muted);padding:9px 13px;border-radius:999px;background:rgba(255,255,255,.66)}.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:18px;margin-top:18px}.card{grid-column:span 3;background:linear-gradient(145deg,rgba(255,255,255,.94),rgba(255,255,255,.72));border:1px solid var(--line);border-radius:22px;padding:20px;box-shadow:var(--shadow),inset 0 1px 0 rgba(255,255,255,.78)}.wide{grid-column:span 8}.side{grid-column:span 4}.half{grid-column:span 6}.full{grid-column:span 12}.label{color:var(--soft);font-size:13px;text-transform:uppercase;letter-spacing:.12em;font-weight:800}.metric{font-size:clamp(26px,3vw,42px);font-weight:900;margin-top:8px;color:var(--text)}.metric.brass,.brass,.red,.green,.metric.copper,.copper{color:var(--accent);text-shadow:none}h2{margin:0 0 14px;font-size:24px;letter-spacing:-.03em}h3{margin:14px 0 8px;color:var(--text)}.chart-svg,svg{width:100%;height:auto;min-height:220px}.axis{fill:var(--soft);font-size:12px}.bar-row,.bar{display:grid;grid-template-columns:150px 1fr 96px;gap:12px;align-items:center;margin:12px 0}.bar-label,.bar b{color:var(--text);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.bar-value,.bar em{color:var(--accent);text-align:right;font-weight:800;font-size:13px;font-style:normal}.bar-track,.bar span{height:12px;border-radius:999px;background:#e8f0ec;overflow:hidden;border:1px solid var(--line)}.bar-track span,.bar i{display:block;height:100%;border-radius:999px;box-shadow:none;background:linear-gradient(90deg,var(--accent),#9bbf9f)!important}table{width:100%;border-collapse:collapse;overflow:hidden;border-radius:16px}th,td{padding:11px 12px;border-bottom:1px solid rgba(47,125,104,.12);text-align:left;font-size:13px}th{color:var(--accent);background:#edf5f1;text-transform:uppercase;letter-spacing:.08em}td{color:var(--muted)}.insights{display:grid;grid-template-columns:repeat(2,1fr);gap:14px}.insight{border-left:3px solid var(--accent);background:rgba(255,255,255,.64);padding:14px;border-radius:14px;color:var(--muted)}.insight b,.insight strong{color:var(--accent)}.footer{color:var(--soft);text-align:center;margin-top:30px}@media(max-width:900px){.card,.wide,.side,.half{grid-column:span 12}.bar-row,.bar{grid-template-columns:1fr;gap:6px}.insights{grid-template-columns:1fr}}
+</style>
 </head>
 <body>
   <main class="wrap">
     <section class="hero">
       <div class="eyebrow">Portfolio BI System • SQL + Python + ML + Vercel</div>
       <h1>E-Commerce Sales & Customer Behavior <span class="gradient">Analytics Platform</span></h1>
-      <p class="sub">A old-money executive analytics boardroom for a marketplace business: 58K synthetic transactions, 12K customers, advanced SQL, RFM, K-Means segmentation, churn prediction, forecasting assets, and BI-ready KPI layers.</p>
+      <p class="sub">A professional analytics dashboard for a marketplace business: 58K synthetic transactions, 12K customers, advanced SQL, RFM, K-Means segmentation, churn prediction, forecasting assets, and BI-ready KPI layers.</p>
       <div class="chips"><span class="chip">Executive Summary</span><span class="chip">Sales Analytics</span><span class="chip">Customer Segmentation</span><span class="chip">Product Insights</span><span class="chip">Marketing Performance</span><span class="chip">Operational Analytics</span></div>
     </section>
 
@@ -157,7 +131,7 @@
         <div class="insight"><strong>Product strategy:</strong> electronics and fashion-style categories need separate return-rate playbooks because refund behavior varies by category.</div>
       </div></div>
     </section>
-    <div class="footer">Built from Python-generated synthetic data • 35 advanced SQL queries • Streamlit app in repo • Static old-money dashboard deployed on Vercel</div>
+    <div class="footer">Built from Python-generated synthetic data • 35 advanced SQL queries • Streamlit app in repo • Static professional dashboard deployed on Vercel</div>
   </main>
 </body>
 </html>
