@@ -1,10 +1,10 @@
 # E-Commerce Sales & Customer Behavior Analytics Platform
 
-> Premium retail analytics platform for revenue growth, customer intelligence, churn risk, product performance, cohort retention, and executive marketplace reporting.
+> An Amazon/Flipkart-style marketplace analytics platform for revenue growth, customer intelligence, churn risk, product performance, cohort retention, and executive reporting.
 
 ## Hero Section
 
-**Marketplace Intelligence for Revenue, Retention, and Product Decisions** — a recruiter-ready analytics engineering case study that transforms transactional, customer, product, seller, payment, and review data into measurable business decisions.
+**Amazon/Flipkart-style marketplace intelligence for revenue, retention, and product decisions** — a recruiter-ready analytics engineering case study that transforms transactional, customer, product, seller, payment, and review data into measurable business decisions.
 
 ## Project Overview
 
